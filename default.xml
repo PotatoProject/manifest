@@ -5,7 +5,7 @@
           fetch="https://github.com/LineageOS"
           revision="refs/heads/lineage-15.1" />
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-8.1.0_r22"
            remote="aosp"

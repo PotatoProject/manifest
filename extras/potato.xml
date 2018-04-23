@@ -36,6 +36,7 @@
   <project name="PotatoROM" revision="packages_apps_Nfc" path="packages/apps/Nfc" remote="potato" />
   <project name="PotatoROM" revision="packages_apps_Settings" path="packages/apps/Settings" remote="potato" />
   <project name="PotatoROM" revision="packages_apps_Wedges" path="packages/apps/Wedges" remote="potato" />
+  <project name="PotatoROM" revision="packages_services_Telephony" path="packages/services/Telephony" remote="potato" />
   <project name="PotatoROM" revision="system_bt" path="system/bt" remote="potato" />
   <project name="PotatoROM" revision="system_core" path="system/core" remote="potato" />
   <project name="PotatoROM" revision="system_media" path="system/media" remote="potato" />

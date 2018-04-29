@@ -33,6 +33,7 @@
   <project name="PotatoROM" revision="hardware_qcom_power" path="hardware/qcom/power" remote="potato" />
   <project name="PotatoROM" revision="hardware_ril" path="hardware/ril" remote="potato" />
   <project name="PotatoROM" revision="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="potato" />
+  <project name="PotatoROM" revision="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="potato" />
   <project name="PotatoROM" revision="packages_apps_DUI" path="packages/apps/DUI" remote="potato" />
   <project name="PotatoROM" revision="packages_apps_Nfc" path="packages/apps/Nfc" remote="potato" />
   <project name="PotatoROM" revision="packages_apps_Settings" path="packages/apps/Settings" remote="potato" />

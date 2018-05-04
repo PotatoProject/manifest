@@ -24,6 +24,7 @@
   <project name="PotatoROM" revision="external_tinycompress" path="external/tinycompress" remote="potato" />
   <project name="PotatoROM" revision="frameworks_av" path="frameworks/av" remote="potato" />
   <project name="PotatoROM" revision="frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="potato" />
+  <project name="PotatoROM" revision="frameworks_native" path="frameworks/native" groups="pdk" remote="potato" />  
   <project name="PotatoROM" revision="hardware_interfaces" path="hardware/interfaces" remote="potato" />
   <project name="PotatoROM" revision="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="potato" />
   <project name="PotatoROM" revision="hardware_libhardware" path="hardware/libhardware" remote="potato" />

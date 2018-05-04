@@ -72,6 +72,7 @@
   <!-- Remove projects for PotatoROM -->
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build/soong" />

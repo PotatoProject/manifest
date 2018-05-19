@@ -25,6 +25,7 @@
   <project name="PotatoROM" revision="frameworks_av" path="frameworks/av" remote="potato" />
   <project name="PotatoROM" revision="frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="potato" />
   <project name="PotatoROM" revision="frameworks_native" path="frameworks/native" groups="pdk" remote="potato" />  
+  <project name="PotatoROM" revision="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="potato" />
   <project name="PotatoROM" revision="frameworks_support" path="frameworks/support" remote="potato" />
   <project name="PotatoROM" revision="hardware_interfaces" path="hardware/interfaces" remote="potato" />
   <project name="PotatoROM" revision="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="potato" />

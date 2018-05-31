@@ -5,14 +5,13 @@
           fetch="https://github.com" />
 
   <remote name="potato"
-          fetch="https://github.com/AgentFabulous" />
-<!--  <remote name="potato"
-          fetch="https://github.com/PotatoROM"
-          revision="refs/heads/oreo-mr1" />-->
+          fetch="https://github.com/PotatoProject"
+          revision="refs/heads/aligot-release" />
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="refs/heads/lineage-15.1" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />

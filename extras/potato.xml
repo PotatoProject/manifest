@@ -45,6 +45,7 @@
   <project name="system_bt" path="system/bt" remote="potato" />
   <project name="system_core" path="system/core" remote="potato" />
   <project name="system_media" path="system/media" remote="potato" />
+  <project name="system_netd" path="system/netd" remote="potato" />
   <project name="system_nfc" path="system/nfc" remote="potato" />
   <project name="system_sepolicy" path="system/sepolicy" remote="potato" />
   <project name="system_tools_hidl" path="system/tools/hidl" remote="potato" />

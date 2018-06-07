@@ -38,6 +38,7 @@
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="potato" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="potato" />
   <project name="packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo" remote="potato" />
+  <project name="packages_apps_Lean" path="packages/apps/Lean" remote="potato" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="potato" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="potato" />
   <project name="packages_apps_Wedges" path="packages/apps/Wedges" remote="potato" />
@@ -54,9 +55,6 @@
 
   <!-- DUtils -->
   <project name="DirtyUnicorns/android_external_DUtils" path="external/DUtils" revision="o8x" remote="github" />
-
-  <!-- Launcher3 -->
-  <project name="amirzaidi/Launcher3" path="packages/apps/Launcher3" revision="o-mr1" remote="github" />
 
   <!-- Lineage Repos -->
   <project name="android_device_qcom_common"                        path="device/qcom/common"                        remote="lineage" />

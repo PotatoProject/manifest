@@ -60,6 +60,7 @@
 
   <!-- Lineage Repos -->
   <project name="android_device_qcom_common"                        path="device/qcom/common"                        remote="lineage" />
+  <project name="android_packages_apps_FMRadio"         	    path="packages/apps/FMRadio"                     remote="lineage" />
   <project name="android_packages_apps_Messaging"                   path="packages/apps/Messaging"                   remote="lineage" />
   <project name="android_external_ant-wireless_ant_native"          path="external/ant-wireless/ant/native"          remote="lineage" />
   <project name="android_external_ant-wireless_ant_service"         path="external/ant-wireless/ant/service"         remote="lineage" />

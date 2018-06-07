@@ -21,6 +21,7 @@
   <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-15.1-caf-8994" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-15.1-caf-8996" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8998" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-15.1-caf-8998" />
+  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="lineage" revision="lineage-15.1" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="lineage" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" groups="qcom" remote="lineage" revision="lineage-15.1-caf-8084" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" groups="qcom" remote="lineage" revision="lineage-15.1-caf-8952" />

@@ -1,0 +1,62 @@
+[center]
+[img]https://imgur.com/SduD1vj[/img]
+
+[code]
+[center]
+Warning Message
+[/center]
+[/code]
+
+[img]https://imgur.com/91oSaWZ[/img]
+[center]
+Potato Open Sauce Project is a butter smooth Android aftermarket firmware. We handpicked the best features around and are adding our own sauce to it. Get ready to taste the unique features it brings with itself.
+[/center]
+
+
+[size=+3][color=gold]Team Potato[/color][/size]
+
+@Agent_fabulous
+@ZerNico
+@Adesh15
+@akhilnarang
+@JagravNaik
+@ShreyanshLodha
+@deletescape
+@McAwesomePL
+Josh
+
+
+[img]https://imgur.com/XqQvWDy[/img]
+<Write Features here>
+
+[img]https://imgur.com/EGiMknP[/img]
+[center]
+[url=http://potato-gerrit.del.dog/][color=gold]Potato Gerrit[/color][/url]
+[url=https://github.com/PotatoProject][color=gold]Potato Github[/color][/url]
+[url=][color=gold]<DeviceName> Device[/color][/url]
+[url=][color=gold]<DeviceName> Kernel[/color][/url]
+[/center]
+
+[img]https://imgur.com/CyH6XJV[/img]
+[size=+1]Clean Install[/size]
+- Backup all your data (Important)
+- Wipe /system, /data and cache.
+- Flash the ROM + GApps (Download link below)
+- Reboot
+
+[size=+1]Updates[/size]
+- Flash ROM
+- Reboot!
+
+[img]https://imgur.com/DJKSMdo[/img]
+[url=][color=red]<Device Name>[/color][/url]
+
+[size=+2][color=gold]Thanks and Credits[/color][/size]
+- Google for AOSP
+- AOSiP 
+- DU
+- LineageOS
+- Anyone else we missed
+Special thanks to @akhilnarang and @deletescape for gurret and doggobin
+
+[/center]

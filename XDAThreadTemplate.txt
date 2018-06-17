@@ -1,0 +1,107 @@
+[IMG]https://imgur.com/SduD1vj.jpg[/IMG]
+
+[CODE]#include <std_disclaimer.h>
+/*
+ * Your warranty is... still valid?
+ *
+ * I am not responsible for bricked devices, dead SD cards,
+ * thermonuclear war, or you getting fired because the alarm app failed. Please
+ * do some research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications, and if
+ * you point the finger at me for messing up your device, I will laugh at you.
+ */[/CODE]
+
+Now that I'm done saving my butt, let's proceed :D
+
+
+[IMG]https://imgur.com/91oSaWZl.jpg[/IMG]
+Potato Open Sauce Project is a butter smooth Android aftermarket firmware. We handpicked the best features around and are adding our own sauce to it.
+Get ready to taste the unique features it brings with itself.
+We aim to deliver an experience with original ideas and features along with the useful things the community is accustomed to.
+
+[SIZE=+2]Team Potato[/SIZE]
+ [MENTION=5834335]Agent_fabulous[/MENTION]
+ [MENTION=7820560]ZerNico[/MENTION]
+ [MENTION=7037776]Adesh15[/MENTION]
+ [MENTION=5854483]akhilnarang[/MENTION]
+ [MENTION=5912585]JagravNaik[/MENTION]
+ [MENTION=6763765]ShreyanshLodha[/MENTION]
+ [MENTION=7049589]deletescape[/MENTION]
+
+Design:
+ [MENTION=7135377]McAwesomePL[/MENTION]
+Joshua Baldassarre
+
+[SIZE=+1]Got an issue or suggestion? Reach us at[/SIZE]
+[B]Telegram[/B]: [URL]https://telegram.me/SaucyPotatoesOfficial[/URL]
+[B]Google Plus[/B]: [URL]https://plus.google.com/u/0/communities/117684625601494456609[/URL]
+[B]Twitter[/B]: [URL]https://twitter.com/PotatoAndroid[/URL]
+
+[IMG]https://imgur.com/XqQvWDyl.jpg[/IMG]
+
+[B]Statusbar settings[/B]
+- Clock customisation
+- Carrier label customisation
+- Battery icon options
+- Network activity indicators
+
+[B]Themes[/B]
+- Base color options
+- Over 15 accents to choose from
+- Light, Dark and Black styles
+- Tinting of settings icons independently
+- Rounded corners and content padding customisations
+
+[B]Quick Settings[/B]
+- Bottom brightness slider with autobrightness toggle
+- Transparency
+- Colors
+- Automatically set color from the wallpaper
+
+[B]Navigation[/B]
+- Edge gestures
+ (DUI)
+- Navigation bar options
+- Hardware key customisations
+
+[B]Gestures[/B]
+- Edge gestures
+- Device extras (if supported)
+
+[B]Miscellaneous[/B]
+- Face auto unlock
+- Three finger screenshot
+- Advanced reboot
+- Lean Launcher
+- Uploading FC logs to [URL="https://del.dog"]dogbin[/URL]
+
+[B]OTA Updates support[/B]: Coming soon!
+
+[IMG]https://imgur.com/EGiMknPl.jpg[/IMG]
+[B]POSP:[/B] [URL="https://github.com/PotatoProject"]PotatoProject[/URL]
+[B]POSP Device Sources:[/B] [URL="https://github.com/PotatoDevices"]PotatoDevices[/URL]
+[B]POSP Code Review:[/B] Repositories available on [URL="https://review.potatoproject.co"]Gerrit Code Review[/URL]
+
+[IMG]https://imgur.com/CyH6XJVl.jpg[/IMG]
+[SIZE=+1][b]Clean Install[/b][/SIZE]
+- Backup all your data (Important)
+- Wipe /system, /data and cache.
+- Flash the ROM + GApps (Download link below)
+- Reboot
+
+[SIZE=+1][b]Updates[/b][/SIZE]
+- Flash ROM
+- Reboot!
+
+[IMG]https://imgur.com/DJKSMdol.jpg[/IMG]
+[B]ROM:[/B] [URL]https://sourceforge.net/projects/posp/files[/URL]
+[B]GApps:[/B] [URL="https://opengapps.org"]OpenGApps[/URL]
+
+[SIZE=+1]Credits[/SIZE]
+- Google for AOSP
+- Team Potato
+- AOSiP
+- Dirty Unicorns
+- LineageOS
+- @hundeva for Lean Launcher
+Special thanks to [MENTION=5854483]akhilnarang[/MENTION] and [MENTION=5863325]sagarshah1729[/MENTION] for [URL]https://review.potatoproject.co[/URL] and the domain :D

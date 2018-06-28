@@ -18,6 +18,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project name="external_json-c"                path="external/json-c"                remote="potato" />
   <project name="external_perfetto"              path="external/perfetto"              remote="potato" />
   <project name="external_selinux"               path="external/selinux"               remote="potato" />
   <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="potato" />

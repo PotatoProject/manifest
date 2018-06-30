@@ -41,6 +41,7 @@
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="potato" />
   <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="potato" />
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="potato" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="potato" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="potato" />
   <project name="packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo" remote="potato" />
   <project name="packages_apps_Lean" path="packages/apps/Lean" remote="potato" />

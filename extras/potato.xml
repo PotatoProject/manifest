@@ -25,7 +25,6 @@
   <project name="external_tinycompress" path="external/tinycompress" remote="potato" />
   <project name="frameworks_av" path="frameworks/av" remote="potato" />
   <project name="frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="potato" />
-  <project name="frameworks_compile_mclinker" path="frameworks/compile/mclinker" remote="potato" />
   <project name="frameworks_native" path="frameworks/native" groups="pdk" remote="potato" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="potato" />
   <project name="frameworks_support" path="frameworks/support" remote="potato" />

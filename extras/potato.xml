@@ -82,4 +82,5 @@
   <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" remote="lineage"/>
   <project name="android_vendor_nxp_opensource_frameworks"          path="vendor/nxp/opensource/frameworks"          remote="lineage"/>
   <project name="android_vendor_nxp_opensource_packages_apps_Nfc"   path="vendor/nxp/opensource/packages/apps/Nfc"   remote="lineage"/>
+  <project name="android_system_qcom"                               path="system/qcom"                               remote="lineage"/>
 </manifest>

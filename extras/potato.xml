@@ -2,6 +2,22 @@
 <manifest>
   <include name="extras/remove.xml" />
 
+  <!-- Potato Repos -->
+  <project name="build_make" path="build/make" groups="pdk" remote="potato">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project name="build_soong" path="build/soong" remote="potato" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project name="vendor_potato" path="vendor/potato" remote="potato" />
+
   <!-- Lineage Repos -->
   <project name="android_device_qcom_common"                        path="device/qcom/common"                        remote="lineage" revision="lineage-15.1" />
   <project name="android_packages_apps_FMRadio"                     path="packages/apps/FMRadio"                     remote="lineage" />

@@ -6,7 +6,7 @@
 
   <remote name="potato"
           fetch="https://github.com/PotatoProject"
-          revision="refs/heads/aligot-release" />
+          revision="refs/heads/baked-release" />
 
   <remote name="devices"
           fetch="https://github.com/PotatoDevices"

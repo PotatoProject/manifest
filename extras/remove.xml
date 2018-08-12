@@ -65,4 +65,7 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
+  <!-- Remove projects for PotatoROM -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
 </manifest>

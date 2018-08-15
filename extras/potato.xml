@@ -3,6 +3,8 @@
   <include name="extras/remove.xml" />
 
   <!-- Potato Repos -->
+  <project name="bionic" path="bionic" remote="potato" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="potato" />
   <project name="build_make" path="build/make" groups="pdk" remote="potato">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -16,11 +18,25 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="vendor_potato" path="vendor/potato" remote="potato" />
+  <project name="external_perfetto"              path="external/perfetto"              remote="potato" />
+  <project name="external_selinux"               path="external/selinux"               remote="potato" />
+  <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="potato" />
+  <project name="external_tinycompress"          path="external/tinycompress"          remote="potato" />
+  <project name="frameworks_av"                  path="frameworks/av"                  remote="potato" />
+  <project name="frameworks_base"                path="frameworks/base"                remote="potato" />
+  <project name="frameworks_compile_mclinker"    path="frameworks/compile/mclinker"    remote="potato" />
+  <project name="frameworks_native"              path="frameworks/native"              remote="potato" />
+  <project name="hardware_libhardware"           path="hardware/libhardware"           remote="potato" />
+  <project name="hardware_libhardware_legacy"    path="hardware/libhardware_legacy"    remote="potato" />
+  <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
+  <project name="prebuilts_build-tools"          path="prebuilts/build-tools"          remote="potato" />
+  <project name="system_bt"                      path="system/bt"                      remote="potato" />
+  <project name="system_core"                    path="system/core"                    remote="potato" />
+  <project name="system_vold"                    path="system/vold"                    remote="potato" />  
+  <project name="vendor_potato"                  path="vendor/potato"                  remote="potato" />
 
   <!-- Lineage Repos -->
   <project name="android_device_qcom_common"                        path="device/qcom/common"                        remote="lineage" revision="lineage-15.1" />
-  <project name="android_packages_apps_FMRadio"                     path="packages/apps/FMRadio"                     remote="lineage" />
   <!--<project name="android_external_ant-wireless_ant_native"          path="external/ant-wireless/ant/native"          remote="lineage" />
   <project name="android_external_ant-wireless_ant_service"         path="external/ant-wireless/ant/service"         remote="lineage" />
   <project name="android_external_ant-wireless_antradio-library"    path="external/ant-wireless/antradio-library"    remote="lineage" />-->

@@ -24,7 +24,7 @@ To all cheese lovers, potato lovers, cheesy potato lovers and android custom fir
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/PotatoProject/manifest -b aligot-release;
+        repo init -u https://github.com/PotatoProject/manifest -b baked-release;
         repo sync;
         ```
     3. The ROM sauce is ready! Get ready to prepare your device-specific sauce.

@@ -14,7 +14,7 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="refs/heads/lineage-15.1" />
+          revision="refs/heads/lineage-16.0" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"

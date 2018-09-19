@@ -3,6 +3,7 @@
 
   <!-- Hardware repos -->
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="lineage" />
+  <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="lineage" />
   <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="lineage" />
   <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="lineage" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="lineage" />

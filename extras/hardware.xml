@@ -7,6 +7,7 @@
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="lineage" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="lineage" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="lineage" />
+  <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="lineage" />
 
   <project path="hardware/qcom/audio-caf/msm8974"   name="hardware_qcom_audio"   remote="potato" revision="baked-caf-8974" />
   <project path="hardware/qcom/bt-caf"              name="hardware_qcom_bt"      remote="potato" revision="baked-caf" />

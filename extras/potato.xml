@@ -28,6 +28,7 @@
   <project name="frameworks_native"              path="frameworks/native"              remote="potato" />
   <project name="hardware_libhardware"           path="hardware/libhardware"           remote="potato" />
   <project name="hardware_libhardware_legacy"    path="hardware/libhardware_legacy"    remote="potato" />
+  <project name="hardware_qcom_gps"              path="hardware/qcom/gps"              remote="potato" />
   <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
   <project name="packages_apps_Settings"         path="packages/apps/Settings"         remote="potato" />
   <project name="prebuilts_build-tools"          path="prebuilts/build-tools"          remote="potato" />

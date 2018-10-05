@@ -29,8 +29,10 @@
   <project name="frameworks_base"                path="frameworks/base"                remote="potato" />
   <project name="frameworks_compile_mclinker"    path="frameworks/compile/mclinker"    remote="potato" />
   <project name="frameworks_native"              path="frameworks/native"              remote="potato" />
+  <project name="hardware_interfaces"            path="hardware/interfaces"            remote="potato" />
   <project name="hardware_libhardware"           path="hardware/libhardware"           remote="potato" />
   <project name="hardware_libhardware_legacy"    path="hardware/libhardware_legacy"    remote="potato" />
+  <project name="hardware_qcom_bootctrl"         path="hardware/qcom/bootctrl"         remote="potato" />
   <project name="hardware_qcom_gps"              path="hardware/qcom/gps"              remote="potato" />
   <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
   <project name="packages_apps_Settings"         path="packages/apps/Settings"         remote="potato" />

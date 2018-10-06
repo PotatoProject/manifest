@@ -67,6 +67,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Remove projects for POSP -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
@@ -85,5 +86,6 @@
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 </manifest>

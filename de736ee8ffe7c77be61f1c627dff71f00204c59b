@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8d1b3c83_c60a9fb2",
+        "filename": "extras/potato.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2018-10-06T10:35:08Z",
+      "side": 0,
+      "message": "keep",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 160
+      },
+      "revId": "de736ee8ffe7c77be61f1c627dff71f00204c59b",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    }
+  ]
+}

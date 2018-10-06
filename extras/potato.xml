@@ -38,23 +38,25 @@
   <project name="vendor_potato"                  path="vendor/potato"                  remote="potato" />
 
   <!-- Lineage Repos -->
-  <project name="android_device_qcom_common"                        path="device/qcom/common"                        remote="lineage" revision="lineage-15.1" />
-  <!--<project name="android_external_ant-wireless_ant_native"          path="external/ant-wireless/ant/native"          remote="lineage" />
-  <project name="android_external_ant-wireless_ant_service"         path="external/ant-wireless/ant/service"         remote="lineage" />
-  <project name="android_external_ant-wireless_antradio-library"    path="external/ant-wireless/antradio-library"    remote="lineage" />-->
   <project name="android_packages_resources_devicesettings"         path="packages/resources/devicesettings"         remote="lineage" />
   <project name="android_system_tools_dtbtool"                      path="system/tools/dtbtool"                      remote="lineage" />
   <project name="android_vendor_codeaurora_telephony"               path="vendor/codeaurora/telephony"               remote="lineage" />
-  <project name="android_vendor_qcom_opensource_cryptfs_hw"         path="vendor/qcom/opensource/cryptfs_hw"         remote="lineage" revision="lineage-15.1" />
-  <project name="android_vendor_qcom_opensource_dataservices"       path="vendor/qcom/opensource/dataservices"       remote="lineage" revision="lineage-15.1" />
+  <project name="android_vendor_qcom_opensource_cryptfs_hw"         path="vendor/qcom/opensource/cryptfs_hw"         remote="lineage" revision="lineage-16.0" />
+  <project name="android_vendor_qcom_opensource_dataservices"       path="vendor/qcom/opensource/dataservices"       remote="lineage" />
   <project name="android_vendor_qcom_opensource_interfaces"         path="vendor/qcom/opensource/interfaces"         remote="lineage"  >
     <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
   </project>
-  <project name="android_external_libnfc-nxp"                       path="external/libnfc-nxp"                       remote="lineage"/>
-  <project name="android_vendor_nxp_interfaces_opensource_nfc"      path="vendor/nxp/interfaces/opensource/nfc"      remote="lineage" revision="lineage-15.1">
+  <project name="android_external_libnfc-nxp"                       path="external/libnfc-nxp"                       remote="lineage" />
+  <project name="android_vendor_nxp_interfaces_opensource_nfc"      path="vendor/nxp/interfaces/opensource/nfc"      remote="lineage" >
     <linkfile src="prop_pickup.bp" dest="vendor/nxp/interfaces/Android.bp"/>
   </project>
-  <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" remote="lineage" revision="lineage-15.1" />
-  <project name="android_vendor_nxp_opensource_frameworks"          path="vendor/nxp/opensource/frameworks"          remote="lineage" revision="lineage-15.1" />
-  <project name="android_vendor_nxp_opensource_packages_apps_Nfc"   path="vendor/nxp/opensource/packages/apps/Nfc"   remote="lineage" revision="lineage-15.1" />
+  <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" remote="lineage"  />
+  <project name="android_vendor_nxp_opensource_frameworks"          path="vendor/nxp/opensource/frameworks"          remote="lineage"  />
+  <project name="android_vendor_nxp_opensource_packages_apps_Nfc"   path="vendor/nxp/opensource/packages/apps/Nfc"   remote="lineage"  />
+
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
 </manifest>

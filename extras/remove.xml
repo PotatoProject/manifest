@@ -79,14 +79,17 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />

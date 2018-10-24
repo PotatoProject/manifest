@@ -21,6 +21,7 @@
   </project>
   <project name="device_potato_sepolicy"         path="device/potato/sepolicy"         remote="potato" />
   <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy"           remote="potato" />
+  <project name="external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="potato" />
   <project name="external_json-c"                path="external/json-c"                remote="potato" />
   <project name="external_perfetto"              path="external/perfetto"              remote="potato" />
   <project name="external_selinux"               path="external/selinux"               remote="potato" />

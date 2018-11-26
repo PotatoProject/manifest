@@ -30,6 +30,7 @@
   <project name="frameworks_base"                path="frameworks/base"                remote="potato" />
   <project name="frameworks_compile_mclinker"    path="frameworks/compile/mclinker"    remote="potato" />
   <project name="frameworks_native"              path="frameworks/native"              remote="potato" />
+  <project name="frameworks_opt_net_ims"         path="frameworks/opt/net/ims"         remote="potato" />
   <project name="frameworks_opt_net_wifi"        path="frameworks/opt/net/wifi"        remote="potato" />
   <project name="frameworks_opt_telephony"       path="frameworks/opt/telephony"       remote="potato" />
   <project name="hardware_interfaces"            path="hardware/interfaces"            remote="potato" />
@@ -44,6 +45,7 @@
   <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
   <project name="packages_apps_Dialer"           path="packages/apps/Dialer"           remote="potato" />
   <project name="packages_apps_Settings"         path="packages/apps/Settings"         remote="potato" />
+  <project name="packages_services_Telephony"    path="packages/services/Telephony"    remote="potato" />
   <project name="prebuilts_build-tools"          path="prebuilts/build-tools"          remote="potato" />
   <project name="system_bt"                      path="system/bt"                      remote="potato" />
   <project name="system_connectivity_wificond"   path="system/connectivity/wificond"   remote="potato" />

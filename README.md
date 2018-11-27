@@ -1,5 +1,5 @@
 # Potato Open Sauce Project
-<img src="https://imgur.com/SduD1vj.jpg"> 
+<img src="https://i.imgur.com/pSXqRU2.png">
 Haters gonna hate, potatoes gonna potate!
 
 Credits
@@ -9,15 +9,15 @@ Credits
  * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
  * [**LineageOS**](https://github.com/LineageOS)
 
-# Aligot
-To all cheese lovers, potato lovers, cheesy potato lovers and android custom firmware lovers out there — this is heaven.
+# Baked
+Prepare yourself to be treated by the goodness of baked, saucy and seasoned potatoes!
 
 ### Ingredients
 - Around 75G disk space
 - 20G or more usable internet
 - A computer with at least 8G RAM running Linux or MacOS
 - A brain
-- Some cheese and potatoes
+- Some spices and potatoes
 
 ### Instructions
 - Preparing the sauce
@@ -32,9 +32,9 @@ To all cheese lovers, potato lovers, cheesy potato lovers and android custom fir
 - Preparing device sauce
     1. Define all relevant device repositories in `.repo/local_manifests/local_manifests.xml`
     2. Run `repo sync;`
-    3. Move/copy your `<ROM>.mk` (Example: `lineage.mk`, `aosp_bacon.mk`) file to `potato.mk`.
+    3. Move/copy your `<ROM>.mk` (Example: `lineage.mk`, `aosp_beryllium.mk`) file to `potato.mk`.
     4. Open this file and
-        - Set PRODUCT_NAME to `potato_<device>` (Example: `potato_bacon`)
+        - Set PRODUCT_NAME to `potato_<device>` (Example: `potato_beryllium`)
         - For a Phone or tablet with a SIM Card, add
             ```
             # Inherit from Potato vendor
@@ -57,18 +57,19 @@ To all cheese lovers, potato lovers, cheesy potato lovers and android custom fir
         Example:
         ```
         source build/envsetup.sh;
-        add_lunch_combo potato_bacon-userdebug;
-        brunch bacon;
+        add_lunch_combo potato_beryllium-userdebug;
+        brunch beryllium;
         ```
     2. This will start compiling the build. Keep the potato near you for luck. You may optionally eat cheese while the build compiles.
     3. Resolve errors if any and continue building.
 
 ### Reporting compilation issues
 - You can reach us at [**Telegram**](https://t.me/SaucyPotatoesOfficial)
-- For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildingHelp)
+- For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
+- Make sure you provide relevant logs, screenshots and details with all sources you used.
 
 ### Contributing
 - You can contribute to this project by submitting changes to our [**Gerrit Code-Review**](https://review.potatoproject.co) server.
 
 ### Adding Support
-- For adding your device to the list of supported devices, please message [**Jagrav**](https://t.me/Jagrav) with your device tree and previous works.
+- For adding your device to the list of supported devices, please reach us at [**Telegram**](https://t.me/SaucyPotatoesOfficial) with your device tree and previous works.

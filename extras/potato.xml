@@ -66,6 +66,7 @@
   <project name="android_vendor_qcom_opensource_interfaces"         path="vendor/qcom/opensource/interfaces"         remote="lineage"  >
     <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
   </project>
+  <project name="android_external_ant-wireless_antradio-library"    path="external/ant-wireless/antradio-library"    remote="lineage" />
   <project name="android_external_libnfc-nxp"                       path="external/libnfc-nxp"                       remote="lineage" />
   <project name="android_vendor_nxp_interfaces_opensource_nfc"      path="vendor/nxp/interfaces/opensource/nfc"      remote="lineage" >
     <linkfile src="prop_pickup.bp" dest="vendor/nxp/interfaces/Android.bp"/>

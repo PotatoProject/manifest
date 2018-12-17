@@ -46,11 +46,13 @@
   <project name="packages_apps_Dialer"           path="packages/apps/Dialer"           remote="potato" />
   <project name="packages_apps_Fries"            path="packages/apps/Fries"            remote="potato" />
   <project name="packages_apps_Settings"         path="packages/apps/Settings"         remote="potato" />
+  <project name="packages_services_Telecomm"     path="packages/services/Telecomm"     remote="potato" />
   <project name="packages_services_Telephony"    path="packages/services/Telephony"    remote="potato" />
   <project name="prebuilts_build-tools"          path="prebuilts/build-tools"          remote="potato" />
   <project name="system_bt"                      path="system/bt"                      remote="potato" />
   <project name="system_connectivity_wificond"   path="system/connectivity/wificond"   remote="potato" />
   <project name="system_core"                    path="system/core"                    remote="potato" />
+  <project name="system_netd"                    path="system/netd"                    remote="potato" />
   <project name="system_sepolicy"                path="system/sepolicy"                remote="potato" />
   <project name="system_vold"                    path="system/vold"                    remote="potato" />
   <project name="vendor_codeaurora_telephony"    path="vendor/codeaurora/telephony"    remote="potato" />

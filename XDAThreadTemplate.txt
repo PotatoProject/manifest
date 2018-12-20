@@ -2,7 +2,7 @@
 
 [CODE]#include <std_disclaimer.h>
 /*
- * Your warranty is... still valid?
+ * Your warranty is void.
  *
  * I am not responsible for bricked devices, dead SD cards,
  * thermonuclear war, or you getting fired because the alarm app failed. Please

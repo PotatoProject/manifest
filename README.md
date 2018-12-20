@@ -1,5 +1,5 @@
 # Potato Open Sauce Project
-<img src="https://i.imgur.com/pSXqRU2.png">
+<img src="https://i.imgur.com/tmt6SBG.png">
 Haters gonna hate, potatoes gonna potate!
 
 Credits

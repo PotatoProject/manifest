@@ -55,7 +55,7 @@ Design:
 - Tile titles toggle
 
 [B]Themes[/B]
-- Saucy Pebbles - dyanamic accent preview and picker
+- Saucy Pebbles - dynamic accent preview and picker
 - Base theme changer
 - Wallpaper/Light/Dark switching
 - Black themes
@@ -82,7 +82,6 @@ Design:
 - Lawnchair Launcher
 - QuickStep/LawnStep
 - Dogbin error reporting
-- Ambient Play / Now Playing with history
 - Notification LED changes
 - Quick unlock (Security)
 - Pin scramble (Security)

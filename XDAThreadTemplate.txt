@@ -61,6 +61,10 @@ Design:
 - Black themes
 - Rounded corner customization
 - Corner padding customization
+- QS Transparency
+- Custom QS Colors
+- QS Colors - Wallpaper matching
+- QS Colors - Default restore (For theme engines)
 
 [B]Buttons and Gestures[/B]
 - HW-key remapping (if applicable)
@@ -78,11 +82,11 @@ Design:
 
 [B]Miscellaneous[/B]
 - Face auto unlock
+- More QS tiles
 - In-call vibrations
 - Lawnchair Launcher
 - QuickStep/LawnStep
 - Dogbin error reporting
-- Ambient Play / Now Playing with history
 - Notification LED changes
 - Quick unlock (Security)
 - Pin scramble (Security)

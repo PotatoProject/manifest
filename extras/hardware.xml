@@ -5,6 +5,7 @@
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="lineage" />
   <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="lineage" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="lineage" />
+  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="lineage" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="lineage" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="lineage" />
 

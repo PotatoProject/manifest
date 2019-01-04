@@ -118,4 +118,5 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="packages/inputmethods/LatinIME" />
 </manifest>

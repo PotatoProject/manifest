@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "80c47667_616bdeed",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 589,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2019-01-05T18:30:55Z",
+      "side": 0,
+      "message": "Use remove-project instead. See remove.xml",
+      "range": {
+        "startLine": 589,
+        "startChar": 0,
+        "endLine": 589,
+        "endChar": 114
+      },
+      "revId": "41ecb3c907357a4cf5200b145aacbb28298d4add",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    }
+  ]
+}

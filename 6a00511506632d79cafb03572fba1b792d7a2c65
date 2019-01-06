@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e59b27ae_af4ee03c",
+        "filename": "extras/remove.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2019-01-06T18:47:59Z",
+      "side": 1,
+      "message": "Invalid project name. Needs to be prefixed with platform/, do try testing things like this before pushing :)",
+      "revId": "6a00511506632d79cafb03572fba1b792d7a2c65",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    }
+  ]
+}

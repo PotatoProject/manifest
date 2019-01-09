@@ -70,14 +70,10 @@
   <project name="android_external_ant-wireless_antradio-library"    path="external/ant-wireless/antradio-library"    remote="lineage" />
   <project name="android_external_libnfc-nxp"                       path="external/libnfc-nxp"                       remote="lineage" />
   <project name="android_vendor_codeaurora_telephony"               path="vendor/codeaurora/telephony"               remote="lineage" />
-  <project name="android_vendor_nxp_interfaces_opensource_nfc"      path="vendor/nxp/interfaces/opensource/nfc"      remote="lineage" >
-    <linkfile src="prop_pickup.bp" dest="vendor/nxp/interfaces/Android.bp"/>
-  </project>
-  <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" remote="lineage"  />
-  <project name="android_vendor_nxp_opensource_frameworks"          path="vendor/nxp/opensource/frameworks"          remote="lineage"  />
-  <project name="android_vendor_nxp_opensource_packages_apps_Nfc"   path="vendor/nxp/opensource/packages/apps/Nfc"   remote="lineage"  />
+  <project name="android_vendor_nxp_interfaces_opensource_nfc"      path="vendor/nxp/opensource/interfaces/nfc"      remote="lineage" />
   <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="lineage" />
 
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />

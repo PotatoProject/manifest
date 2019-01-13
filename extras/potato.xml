@@ -76,6 +76,7 @@
   <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" remote="lineage"  />
   <project name="android_vendor_nxp_opensource_frameworks"          path="vendor/nxp/opensource/frameworks"          remote="lineage"  />
   <project name="android_vendor_nxp_opensource_packages_apps_Nfc"   path="vendor/nxp/opensource/packages/apps/Nfc"   remote="lineage"  />
+  <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="lineage" />
 
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />

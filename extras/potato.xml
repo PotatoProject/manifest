@@ -51,6 +51,7 @@
   <project name="packages_services_Telecomm"     path="packages/services/Telecomm"     remote="potato" />
   <project name="packages_services_Telephony"    path="packages/services/Telephony"    remote="potato" />
   <project name="prebuilts_build-tools"          path="prebuilts/build-tools"          remote="potato" />
+  <project name="prebuilts_gradle"               path="prebuilts/gradle"               remote="potato" />
   <project name="system_bt"                      path="system/bt"                      remote="potato" />
   <project name="system_connectivity_wificond"   path="system/connectivity/wificond"   remote="potato" />
   <project name="system_core"                    path="system/core"                    remote="potato" />
@@ -82,4 +83,7 @@
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
+
+  <!-- Others -->
+  <project name="flutter/flutter" path="external/flutter" revision="refs/heads/master" remote="github" />
 </manifest>

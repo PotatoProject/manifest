@@ -46,6 +46,7 @@
   <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
   <project name="packages_apps_Dialer"           path="packages/apps/Dialer"           remote="potato" />
   <project name="packages_apps_Fries"            path="packages/apps/Fries"            remote="potato" />
+  <project name="packages_apps_Launcher3"        path="packages/apps/Launcher3"        remote="potato" />
   <project name="packages_apps_Nfc"              path="packages/apps/Nfc"              remote="potato" />
   <project name="packages_apps_Settings"         path="packages/apps/Settings"         remote="potato" />
   <project name="packages_apps_WeatherClient"    path="packages/apps/WeatherClient"    remote="potato" />

@@ -7,9 +7,13 @@
           fetch="https://github.com/PotatoProject"
           revision="refs/heads/baked-release" />
 
+  <remote name="potato-next"
+          fetch="https://github.com/PotatoProject-next"
+          revision="refs/heads/c-experiments" />
+
   <remote name="devices"
           fetch="https://github.com/PotatoDevices"
-          revision="refs/heads/aligot-release" />
+          revision="refs/heads/baked-release" />
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"

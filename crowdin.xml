@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="potato"
+          fetch="https://github.com/PotatoProject"
+          revision="refs/heads/baked-release" />
+
+  <default remote="potato"
+           sync-j="4"
+           sync-f="true"
+           sync-c="true"/>
+
+  <project path="crowdin" name="crowdin" revision="master" />
+  <project path="manifest" name="manifest" />
+  <project path="frameworks/base" name="frameworks_base" />
+  <project path="packages/apps/Fries" name="packages_apps_Fries" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" />
+
+</manifest>

@@ -62,6 +62,7 @@
   <project name="vendor_potato"                  path="vendor/potato"                  remote="potato" />
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="potato" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="potato" />
+  <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="potato" />
   <project name="AOSiP/platform_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="refs/heads/pie"  />
 
   <!-- Lineage Repos -->

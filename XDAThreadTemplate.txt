@@ -28,6 +28,7 @@ We aim to deliver an experience with original ideas and features along with the 
  [MENTION=7049589]deletescape[/MENTION]
  [MENTION=5912585]JagravNaik[/MENTION]
  [MENTION=5614198]raj_jdja[/MENTION]
+ [MENTION=8681386]HrX[/MENTION]
 
 Design:
  [MENTION=7135377]McAwesomePL[/MENTION]
@@ -41,25 +42,33 @@ Design:
 [IMG]https://i.imgur.com/sbEj6cV.png[/IMG]
 
 [B]Statusbar[/B]
+- Statusbar icons customization
+- Battery icon styles
 - Clock settings
 - Smart Clock
 - Battery icon customization
 - Roaming icon toggle
 - VoLTE icon toggle
+- Double tap to wake toggle
+- Potato icon in statusbar
 
 [B]Quick Settings[/B]
 - QS rows and columns customization
 - Quick QS pulldown
+- Network traffic indicators
 - Bottom brightness slider toggle
 - Tile titles toggle
+- Brightness Control toggle
 
 [B]Themes[/B]
-- Saucy Pebbles - dyanamic accent preview and picker
+- RGB accent picker
 - Base theme changer
 - Wallpaper/Light/Dark switching
 - Black themes
+- Oreo settings icon (Tintable with accent
 - Rounded corner customization
 - Corner padding customization
+- Oreo style QS panel
 - QS Transparency
 - Custom QS Colors
 - QS Colors - Wallpaper matching
@@ -79,12 +88,22 @@ Design:
 - Stoplist (disable heads up notifications in certain apps)
 - Blacklist (disable heads up notifications from certain apps)
 
-[B]Miscellaneous[/B]
+[B]Lockscreen[/B]
+- Media cover art
+- Lockscreen album art filter (Grayscale,Accent,Blur,Grayscale and Blur)
+- Double tap to sleep
 - Face auto unlock
-- More QS tiles
+- Lockscreen clock style (Digital,Sammy with/without accents and bold,Ananlog,Text{Q style})
+
+[B]Miscellaneous[/B]
 - In-call vibrations
 - Lawnchair Launcher
 - QuickStep/LawnStep
+- Aggressive Battery (Credits to CarbonROM)
+- Device uptime and deep sleep info
+- New ambient play style
+- WPS connectivity options
+- IMEI info in sim status
 - Dogbin error reporting
 - Notification LED changes
 - Quick unlock (Security)

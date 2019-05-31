@@ -32,4 +32,6 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8994" remote="lineage" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8996" remote="lineage" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8998" remote="lineage" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" revision="lineage-16.0" remote="lineage" />
+  <project path="hardware/qcom/sdm845/vr" name="android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" revision="lineage-16.0" remote="lineage"/>
 </manifest>

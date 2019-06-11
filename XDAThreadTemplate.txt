@@ -127,6 +127,10 @@ Design:
 - Flash ROM
 - Reboot!
 
+[b]ALSO KEEP IN MIND THAT OFFICIAL BUILDS WILL BE SIGNED[/b]
+- This is to make sure that all of the apps run fine on your potato.
+- If you are dirty flashing an official build over a COMMUNITY one,you need to flash this zip [URL="https://sourceforge.net/projects/posp/files/posp-sign-migrate.zip"] POSP-MIGRATE_SIGNED.zip [/URL]
+
 [IMG]https://i.imgur.com/0CoQ9DZ.png[/IMG]
 [B]ROM:[/B] [URL]https://sourceforge.net/projects/posp/files[/URL]
 [B]GApps:[/B] [URL="opengapps.org"]OpenGApps[/URL]

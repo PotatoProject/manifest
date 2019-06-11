@@ -72,4 +72,7 @@ Prepare yourself to be treated by the goodness of baked, saucy and seasoned pota
 - You can contribute to this project by submitting changes to our [**Gerrit Code-Review**](https://review.potatoproject.co) server.
 
 ### Adding Support
+- Make sure you know how to use git, and are familiar with Jenkins, Gerrit, etc.
+- Support a COMMUNITY build for at least 2 weeks.
+- Should be compatible with user build and should follow https://lineageos.org/safetynet .
 - For adding your device to the list of supported devices, please reach us at [**Telegram**](https://t.me/SaucyPotatoesOfficial) with your device tree and previous works.

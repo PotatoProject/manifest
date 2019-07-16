@@ -44,6 +44,7 @@
   <project name="hardware_qcom_gps"              path="hardware/qcom/gps"              remote="potato" />
   <project name="hardware_qcom_power"            path="hardware/qcom/power"            remote="potato" />
   <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
+  <project name="packages_apps_Calendar"         path="packages/apps/Calendar"         remote="potato" />
   <project name="packages_apps_Dialer"           path="packages/apps/Dialer"           remote="potato" />
   <project name="packages_apps_Fries"            path="packages/apps/Fries"            remote="potato" />
   <project name="packages_apps_Launcher3"        path="packages/apps/Launcher3"        remote="potato" />

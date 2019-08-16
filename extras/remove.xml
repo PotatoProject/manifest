@@ -68,9 +68,11 @@
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Remove projects for POSP -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />

@@ -9,8 +9,10 @@ Credits
  * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
  * [**LineageOS**](https://github.com/LineageOS)
 
-# Baked
-Prepare yourself to be treated by the goodness of baked, saucy and seasoned potatoes!
+# c-experiments
+Highly experimental fork! Based on q-preview tags. The instructions below may not be enough
+to build this. This will form the staging area for our c-release. Subject to force-pushes.
+**NO SUPPORT WILL BE PROVIDED FOR THESE REPOS! YOU'RE ON YOUR OWN IF YOU PLAN ON BUILDING THIS.**
 
 ### Ingredients
 - Around 75G disk space
@@ -24,7 +26,7 @@ Prepare yourself to be treated by the goodness of baked, saucy and seasoned pota
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/PotatoProject/manifest -b baked-release;
+        repo init -u https://github.com/PotatoProject-next/manifest -b c-experiments;
         repo sync;
         ```
     3. The ROM sauce is ready! Get ready to prepare your device-specific sauce.

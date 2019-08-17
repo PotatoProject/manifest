@@ -30,7 +30,7 @@ Prepare yourself to be treated by the goodness of baked, saucy and seasoned pota
     3. The ROM sauce is ready! Get ready to prepare your device-specific sauce.
 
 - Preparing device sauce
-    1. Define all relevant device repositories in `.repo/local_manifests/local_manifests.xml`
+    1. Define all relevant device repositories (device trees,vendor and kernel repositories) in `.repo/local_manifests/local_manifests.xml`
     2. Run `repo sync;`
     3. Move/copy your `<ROM>.mk` (Example: `lineage.mk`, `aosp_beryllium.mk`) file to `potato.mk`.
     4. Open this file and

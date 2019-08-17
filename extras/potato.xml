@@ -40,6 +40,7 @@
   <project name="system_sepolicy"                path="system/sepolicy"                remote="potato-next" />
   <project name="system_vold"                    path="system/vold"                    remote="potato-next" />
   <project name="vendor_potato"                  path="vendor/potato"                  remote="potato-next" />
+  <project name="vendor_qcom_opensource_audio"   path="vendor/qcom/opensource/audio"   remote="potato-next" />
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="potato" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="potato-next" />
 
@@ -63,7 +64,6 @@
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
 
   <!-- Others -->
   <project name="flutter/flutter" path="external/flutter" revision="refs/heads/stable" remote="github" />

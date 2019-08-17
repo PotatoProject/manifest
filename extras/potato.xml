@@ -5,6 +5,7 @@
   <!-- Potato Repos -->
   <project name="art" path="art" remote="potato-next" />
   <project name="bionic" path="bionic" remote="potato-next" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="potato-next" />
   <project name="build_make" path="build/make" groups="pdk" remote="potato-next">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

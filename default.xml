@@ -9,7 +9,7 @@
 
   <remote name="potato-next"
           fetch="https://github.com/PotatoProject-next"
-          revision="refs/heads/c-experiments" />
+          revision="refs/heads/c-staging" />
 
   <remote name="devices"
           fetch="https://github.com/PotatoDevices"

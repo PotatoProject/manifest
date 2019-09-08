@@ -1,0 +1,73 @@
+[IMG]https://i.imgur.com/IioRnaV.png[/IMG]
+
+[CODE]#include <std_disclaimer.h>
+/*
+ * Your warranty is void.
+ *
+ * I am not responsible for bricked devices, dead SD cards,
+ * thermonuclear war, or you getting fired because the alarm app failed. Please
+ * do some research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications, and if
+ * you point the finger at me for messing up your device, I will laugh at you.
+ */[/CODE]
+
+Now that I'm done saving my butt, let's proceed :D
+
+
+[IMG]https://i.imgur.com/8xEildE.png[/IMG]
+Potato Open Sauce Project is a butter smooth Android aftermarket firmware. We handpicked the best features around and are adding our own sauce to it.
+Get ready to taste the unique features it brings with itself.
+We aim to deliver an experience with original ideas and features along with the useful things the community is accustomed to.
+
+[SIZE=+2]Team Potato[/SIZE]
+ [MENTION=5834335]Agent_fabulous[/MENTION]
+ [MENTION=7820560]ZerNico[/MENTION]
+ [MENTION=5614198]raj_jdja[/MENTION]
+ [MENTION=6763765]ShreyanshLodha[/MENTION]
+ [MENTION=5854483]akhilnarang[/MENTION]
+ [MENTION=7049589]deletescape[/MENTION]
+ [MENTION=8681386]HrX[/MENTION]
+ [MENTION=5912585]JagravNaik[/MENTION]
+
+Design:
+ [MENTION=7135377]McAwesomePL[/MENTION]
+ [URL="https://www.youtube.com/channel/UCkzhkIspDgx1HsUnA2oeUqA"]Valvze[/URL]
+ Joshua Baldassarre
+
+[SIZE=+1]Got an issue or suggestion? Reach us at[/SIZE]
+[B]Telegram[/B]: [URL]https://telegram.me/SaucyPotatoesOfficial[/URL]
+[B]Twitter[/B]: [URL]https://twitter.com/PotatoAndroid[/URL]
+
+[IMG]https://i.imgur.com/2Fuvc6h.png[/IMG]
+
+- Work in progress!
+- Basically AOSP Android 10.0.0_r2
+
+[IMG]https://i.imgur.com/FC3zOeI.png[/IMG]
+[B]POSP-next:[/B] [URL="https://github.com/PotatoProject"]PotatoProject-next[/URL]
+[B]POSP Device Sources:[/B] Coming Soon!
+[B]POSP Code Review:[/B] [URL="https://review.potatoproject.co"]Gerrit Code Review[/URL]
+
+[IMG]https://i.imgur.com/pLlfPud.png[/IMG]
+[SIZE=+1][b]Clean Install[/b][/SIZE]
+- Backup all your data (Important)
+- Wipe /system, /data and cache.
+- Flash the ROM + GApps (Download link below)
+- Reboot
+
+[SIZE=+1][b]Updates[/b][/SIZE]
+- Flash ROM
+- Reboot!
+
+[IMG]https://i.imgur.com/ZzzIdPw.png[/IMG]
+[B]ROM:[/B] [URL]https://sourceforge.net/projects/posp/files/beryllium/croquette[/URL]
+[B]GApps:[/B] [URL="opengapps.org"]OpenGApps[/URL]
+
+[SIZE=+1]Credits[/SIZE]
+- Google for AOSP
+- Team Potato
+- AOSiP
+- CarbonROM
+- Dirty Unicorns
+- LineageOS
+- Team Lawnchair for Lawnchair Launcher

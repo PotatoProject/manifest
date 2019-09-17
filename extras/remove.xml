@@ -76,6 +76,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/system/bt" />

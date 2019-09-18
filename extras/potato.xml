@@ -41,6 +41,7 @@
   <project name="system_sepolicy"                path="system/sepolicy"                remote="potato-next" />
   <project name="system_update_engine"           path="system/update_engine"           remote="potato-next" />
   <project name="system_vold"                    path="system/vold"                    remote="potato-next" />
+  <project name="vendor_codeaurora_telephony"    path="vendor/codeaurora/telephony"    remote="potato-next" />
   <project name="vendor_potato"                  path="vendor/potato"                  remote="potato-next" />
   <project name="vendor_qcom_opensource_audio"   path="vendor/qcom/opensource/audio"   remote="potato-next" />
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="potato" />
@@ -58,7 +59,6 @@
   <project name="android_external_exfat"                            path="external/exfat"                            remote="lineage" />
   <project name="android_external_json-c"                           path="external/json-c"                           remote="lineage" />
   <project name="android_external_libnfc-nxp"                       path="external/libnfc-nxp"                       remote="lineage" />
-  <project name="android_vendor_codeaurora_telephony"               path="vendor/codeaurora/telephony"               remote="lineage" />
   <project name="android_vendor_nxp_interfaces_opensource_nfc"      path="vendor/nxp/opensource/interfaces/nfc"      remote="lineage" />
 
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />

@@ -56,6 +56,7 @@
   </project>
   <project name="android_external_ant-wireless_antradio-library"    path="external/ant-wireless/antradio-library"    remote="lineage" />
   <project name="android_external_exfat"                            path="external/exfat"                            remote="lineage" />
+  <project name="android_external_json-c"                           path="external/json-c"                           remote="lineage" />
   <project name="android_external_libnfc-nxp"                       path="external/libnfc-nxp"                       remote="lineage" />
   <project name="android_vendor_codeaurora_telephony"               path="vendor/codeaurora/telephony"               remote="lineage" />
   <project name="android_vendor_nxp_interfaces_opensource_nfc"      path="vendor/nxp/opensource/interfaces/nfc"      remote="lineage" />

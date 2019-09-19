@@ -5,11 +5,7 @@
 
   <remote name="potato"
           fetch="https://github.com/PotatoProject"
-          revision="refs/heads/baked-release" />
-
-  <remote name="potato-next"
-          fetch="https://github.com/PotatoProject-next"
-          revision="refs/heads/c-staging" />
+          revision="refs/heads/croquette-release" />
 
   <remote name="devices"
           fetch="https://github.com/PotatoDevices"

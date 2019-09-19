@@ -9,10 +9,8 @@ Credits
  * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
  * [**LineageOS**](https://github.com/LineageOS)
 
-# c-staging
-Highly experimental fork! Based on q-preview tags. The instructions below may not be enough
-to build this. This will form the staging area for our c-release. Subject to force-pushes.
-**NO SUPPORT WILL BE PROVIDED FOR THESE REPOS! YOU'RE ON YOUR OWN IF YOU PLAN ON BUILDING THIS.**
+# croquette-release
+Tastier than ever!
 
 ### Ingredients
 - Around 75G disk space
@@ -26,7 +24,7 @@ to build this. This will form the staging area for our c-release. Subject to for
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/PotatoProject-next/manifest -b c-staging;
+        repo init -u https://github.com/PotatoProject-next/manifest -b croquette-release;
         repo sync;
         ```
     3. The ROM sauce is ready! Get ready to prepare your device-specific sauce.

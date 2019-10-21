@@ -54,7 +54,8 @@
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="potato" />
 
   <!-- Lineage Repos -->
-  <project name="android_device_qcom_sepolicy-legacy"               path="device/qcom/sepolicy-legacy"               remote="lineage" />
+  <project name="android_device_qcom_sepolicy"                      path="device/qcom/sepolicy-legacy"               remote="lineage" revision="lineage-17.0-legacy" />
+  <project name="android_device_qcom_sepolicy"                      path="device/qcom/sepolicy-legacy-um"            remote="lineage" revision="lineage-17.0-legacy-um" />
   <project name="android_packages_resources_devicesettings"         path="packages/resources/devicesettings"         remote="lineage" />
   <project name="android_system_tools_dtbtool"                      path="system/tools/dtbtool"                      remote="lineage" />
   <project name="android_vendor_qcom_opensource_dataservices"       path="vendor/qcom/opensource/dataservices"       remote="lineage" />

@@ -37,6 +37,7 @@
   <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
   <project name="packages_apps_DeskClock"        path="packages/apps/DeskClock"        remote="potato" />
   <project name="packages_apps_Messaging"        path="packages/apps/Messaging"        remote="potato" />
+  <project name="packages_apps_Nfc"              path="packages/apps/Nfc"              remote="potato" />
   <project name="packages_apps_Settings"         path="packages/apps/Settings"         remote="potato" />
   <project name="prebuilts_gradle"               path="prebuilts/gradle"               remote="potato" />
   <project name="system_bt"                      path="system/bt"                      remote="potato" />

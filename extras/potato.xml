@@ -5,6 +5,7 @@
   <!-- Potato Repos -->
   <project name="bionic" path="bionic" remote="potato" />
   <project name="bootable_recovery" path="bootable/recovery" remote="potato" />
+  <project name="build_blueprint" path="build/blueprint" remote="potato" />
   <project name="build_make" path="build/make" groups="pdk" remote="potato">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

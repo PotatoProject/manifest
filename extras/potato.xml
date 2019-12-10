@@ -34,6 +34,7 @@
   <project name="hardware_libhardware_legacy"    path="hardware/libhardware_legacy"    remote="potato" />
   <project name="hardware_libhardware"           path="hardware/libhardware"           remote="potato" />
   <project name="hardware_potato_interfaces"     path="hardware/potato/interfaces"     remote="potato" />
+  <project name="hardware_qcom_bootctrl"         path="hardware/qcom/bootctrl"         remote="potato" />
   <project name="hardware_qcom_power"            path="hardware/qcom/power"            remote="potato" />
   <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
   <project name="packages_apps_DeskClock"        path="packages/apps/DeskClock"        remote="potato" />
@@ -53,6 +54,7 @@
   <project name="vendor_qcom_opensource_audio"   path="vendor/qcom/opensource/audio"   remote="potato" />
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="potato" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="potato" />
+  <project name="vendor_qcom_opensource_power"   path="vendor/qcom/opensource/power "  remote="potato" />
 
   <!-- Lineage Repos -->
 

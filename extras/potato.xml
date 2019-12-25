@@ -55,7 +55,6 @@
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="potato" />
 
   <!-- Lineage Repos -->
-
   <project name="android_device_qcom_sepolicy"                      path="device/qcom/sepolicy-legacy"               remote="lineage" revision="lineage-17.0-legacy" />
   <project name="android_device_qcom_sepolicy"                      path="device/qcom/sepolicy-legacy-um"            remote="lineage" revision="lineage-17.0-legacy-um" />
   <project name="android_packages_resources_devicesettings"         path="packages/resources/devicesettings"         remote="lineage" />
@@ -76,7 +75,4 @@
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
 
-  <!-- Others -->
-  <project name="flutter/flutter" path="external/flutter" revision="refs/heads/stable" remote="github" />
-  <project name="AgentFabulous/PotatoCenter" path="packages/apps/PotatoCenter" revision="refs/heads/baked-release" remote="github" />
 </manifest>

@@ -41,9 +41,14 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/openssh" />
+
   <!-- Remove unused hardware repos -->
+  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -65,7 +70,6 @@
   <remove-project name="platform/hardware/qcom/sdm845/media"/>
   <remove-project name="platform/hardware/qcom/sdm845/thermal"/>
   <remove-project name="platform/hardware/qcom/sdm845/vr"/>
-  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Remove projects for POSP -->
   <remove-project name="platform/bionic" />
@@ -89,6 +93,9 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />

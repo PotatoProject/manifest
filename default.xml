@@ -9,7 +9,7 @@
 
   <remote name="devices"
           fetch="https://github.com/PotatoDevices"
-          revision="refs/heads/baked-release" />
+          revision="refs/heads/croquette-release" />
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
@@ -20,7 +20,8 @@
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-10.0.0_r20"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8"
+           sync-c="true" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -796,8 +797,11 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Potato Additions -->
+  <!-- Remove unused AOSP repos -->
+  <include name="extras/remove.xml" />
+  <!-- Track Potato repos -->
   <include name="extras/potato.xml" />
+  <!-- Track LineageOS repos -->
   <include name="extras/lineage.xml" />
 
 </manifest>

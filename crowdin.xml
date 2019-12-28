@@ -3,10 +3,10 @@
 
   <remote name="potato"
           fetch="https://github.com/PotatoProject"
-          revision="refs/heads/baked-release" />
+          revision="refs/heads/croquette-release" />
 
   <default remote="potato"
-           sync-j="4"
+           sync-j="8"
            sync-f="true"
            sync-c="true"/>
 

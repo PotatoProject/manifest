@@ -20,7 +20,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project name="device_potato_sepolicy"         path="device/potato/sepolicy"         remote="potato" />
-  <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy"           remote="potato" />
+  <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy"           remote="potato" revision="croquette-release" />
+  <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy-legacy"           remote="potato" revision="croquette-release-legacy" />
+  <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy-legacy-um"           remote="potato" revision="croquette-release-legacy-um" />
   <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="potato" />
   <project name="external_selinux"               path="external/selinux"               remote="potato" />
   <project name="external_tinycompress"          path="external/tinycompress"          remote="potato" />

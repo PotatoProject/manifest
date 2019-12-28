@@ -119,8 +119,4 @@
   <!-- Device Settings -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
-  <!-- QCOM Sepolicy -->
-  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="lineage" />
-  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="lineage" />
-
 </manifest>

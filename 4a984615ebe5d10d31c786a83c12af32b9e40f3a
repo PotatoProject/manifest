@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dfb7f26e_88e91582",
+        "filename": "extras/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2020-01-03T10:58:47Z",
+      "side": 1,
+      "message": ".",
+      "range": {
+        "startLine": 47,
+        "startChar": 57,
+        "endLine": 47,
+        "endChar": 63
+      },
+      "revId": "4a984615ebe5d10d31c786a83c12af32b9e40f3a",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fe1dfee6_2b10d6a6",
+        "filename": "extras/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2020-01-03T10:58:47Z",
+      "side": 1,
+      "message": ".",
+      "range": {
+        "startLine": 48,
+        "startChar": 57,
+        "endLine": 48,
+        "endChar": 63
+      },
+      "revId": "4a984615ebe5d10d31c786a83c12af32b9e40f3a",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    }
+  ]
+}

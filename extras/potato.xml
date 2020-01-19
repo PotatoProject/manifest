@@ -50,8 +50,12 @@
   <project name="packages_apps_Launcher3"        path="packages/apps/Launcher3"        remote="potato" />
   <project name="packages_apps_Messaging"        path="packages/apps/Messaging"        remote="potato" />
   <project name="packages_apps_Nfc"              path="packages/apps/Nfc"              remote="potato" />
+  <project name="packages_apps_PermissionController"         path="packages/apps/PermissionController"         remote="potato" />
   <project name="packages_apps_Settings"         path="packages/apps/Settings"         remote="potato" />
   <project name="packages_apps_SettingsIntelligence"         path="packages/apps/SettingsIntelligence"         remote="potato" />
+  <project name="packages_providers_DownloadProvider"         path="packages/providers/DownloadProvider"         remote="potato" />
+
+
   <project name="prebuilts_gradle"               path="prebuilts/gradle"               remote="potato" />
   <project name="system_bt"                      path="system/bt"                      remote="potato" />
   <project name="system_core"                    path="system/core"                    remote="potato" />

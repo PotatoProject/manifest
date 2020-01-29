@@ -116,4 +116,7 @@
   <!-- Device Settings -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
+  <!-- boringssl-compat -->
+  <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="lineage" />
+
 </manifest>

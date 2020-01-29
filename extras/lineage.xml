@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- ART -->
+  <project path="art" name="android_art" remote="lineage" />
+
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />

@@ -28,6 +28,7 @@ We aim to deliver an experience with original ideas and features along with the 
  [MENTION=7049589]deletescape[/MENTION]
  [MENTION=8681386]HrX[/MENTION]
  [MENTION=5912585]JagravNaik[/MENTION]
+ [MENTION=8866469]AshwinRC[/MENTION]
 
 Design:
  [MENTION=7135377]McAwesomePL[/MENTION]
@@ -40,8 +41,19 @@ Design:
 
 [IMG]https://i.imgur.com/2Fuvc6h.png[/IMG]
 
-- Work in progress!
-- Basically AOSP Android 10.0.0_r2
+- Custom RGB/HSL QS background colors and opacity
+- Advanced reboot
+- Double tap status bar to sleep
+- Custom RGB/HSL accent picker for dark/light themes
+- Custom icon shapes and icon pack support
+- POSP logo in statusbar
+- 4G/VoLTE icon on status bar
+- Lockscreen media art blur level
+- Permission hub
+- Signature spoofing
+- Custom height for new Q nav gestures
+- Improved AOD ambient play ticker
+- And many more ..
 
 [IMG]https://i.imgur.com/FC3zOeI.png[/IMG]
 [B]POSP-next:[/B] [URL="https://github.com/PotatoProject"]PotatoProject-next[/URL]
@@ -69,5 +81,6 @@ Design:
 - AOSiP
 - CarbonROM
 - Dirty Unicorns
+- OmniROM
 - LineageOS
 - Team Lawnchair for Lawnchair Launcher

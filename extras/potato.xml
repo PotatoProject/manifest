@@ -69,5 +69,6 @@
   <project name="vendor_potato"                  path="vendor/potato"                  remote="potato" />
   <project name="vendor_potato-prebuilts"        path="vendor/potato-prebuilts"        remote="potato" />
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="potato" />
+  <project name="packages_services_Telephony"    path="packages/services/Telephony"    remote="potato" />
 
 </manifest>

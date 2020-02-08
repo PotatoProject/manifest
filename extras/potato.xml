@@ -30,6 +30,7 @@
   <project name="frameworks_base"                path="frameworks/base"                remote="potato" />
   <project name="frameworks_native"              path="frameworks/native"              remote="potato" />
   <project name="frameworks_opt_telephony"       path="frameworks/opt/telephony"       remote="potato" />
+  <project name="frameworks_opt_net_ims"         path="frameworks/opt/net/ims"         remote="potato" />
   <project name="frameworks_potato"              path="frameworks/potato"              remote="potato" />
   <project name="hardware_custom_telephony"      path="hardware/custom/telephony"      remote="potato" />
   <project name="hardware_interfaces"            path="hardware/interfaces"            remote="potato" />
@@ -69,5 +70,6 @@
   <project name="vendor_potato"                  path="vendor/potato"                  remote="potato" />
   <project name="vendor_potato-prebuilts"        path="vendor/potato-prebuilts"        remote="potato" />
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="potato" />
+  <project name="packages_services_Telephony"    path="packages/services/Telephony"    remote="potato" />
 
 </manifest>

@@ -3,6 +3,7 @@
   <include name="extras/remove.xml" />
 
   <!-- Potato Repos -->
+  <project name="art" path="art" remote="potato" />
   <project name="bionic" path="bionic" remote="potato" />
   <project name="bootable_recovery" path="bootable/recovery" remote="potato" />
   <project name="build_blueprint" path="build/blueprint" remote="potato" />

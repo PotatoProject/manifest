@@ -12,7 +12,7 @@
 
   <remote name="devices"
           fetch="https://github.com/PotatoDevices"
-          revision="refs/heads/baked-release" />
+          revision="refs/heads/croquette-release" />
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"

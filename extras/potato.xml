@@ -63,6 +63,7 @@
 
 
   <project name="prebuilts_gradle"               path="prebuilts/gradle"               remote="potato" />
+  <project name="system_bpf"                     path="system/bpf"                     remote="potato" />
   <project name="system_bt"                      path="system/bt"                      remote="potato" />
   <project name="system_core"                    path="system/core"                    remote="potato" />
   <project name="system_sepolicy"                path="system/sepolicy"                remote="potato" />

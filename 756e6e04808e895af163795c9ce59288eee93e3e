@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e4d423c_477ce39c",
+        "filename": "XDAThread/XDAThreadTemplate.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2020-03-26T16:59:51Z",
+      "side": 1,
+      "message": "Add SpehericalKatto here",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 39
+      },
+      "revId": "756e6e04808e895af163795c9ce59288eee93e3e",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cfde0ffd_51bfc915",
+        "filename": "XDAThread/XDAThreadTemplate.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2020-03-26T16:59:51Z",
+      "side": 1,
+      "message": "Use https://www.packet.com/assets/images/logo-packet-equinix-main.png instead",
+      "range": {
+        "startLine": 93,
+        "startChar": 31,
+        "endLine": 93,
+        "endChar": 66
+      },
+      "revId": "756e6e04808e895af163795c9ce59288eee93e3e",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-[IMG]https://i.imgur.com/IioRnaV.png[/IMG]
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/croquette-release/XDAThread/main.png[/IMG]
 
 [CODE]#include <std_disclaimer.h>
 /*
@@ -14,7 +14,7 @@
 Now that I'm done saving my butt, let's proceed :D
 
 
-[IMG]https://i.imgur.com/8xEildE.png[/IMG]
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/croquette-release/XDAThread/about.png[/IMG]
 Potato Open Sauce Project is a butter smooth Android aftermarket firmware. We handpicked the best features around and are adding our own sauce to it.
 Get ready to taste the unique features it brings with itself.
 We aim to deliver an experience with original ideas and features along with the useful things the community is accustomed to.
@@ -39,7 +39,7 @@ Design:
 [B]Telegram[/B]: [URL]https://telegram.me/SaucyPotatoesOfficial[/URL]
 [B]Twitter[/B]: [URL]https://twitter.com/PotatoAndroid[/URL]
 
-[IMG]https://i.imgur.com/2Fuvc6h.png[/IMG]
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/croquette-release/XDAThread/features.png[/IMG]
 
 - Custom RGB/HSL QS background colors and opacity
 - Advanced reboot
@@ -58,12 +58,12 @@ Design:
 - Pre-P style mobile data icon
 - Network speed indicator (OOS style)
 
-[IMG]https://i.imgur.com/FC3zOeI.png[/IMG]
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/croquette-release/XDAThread/sources.png[/IMG]
 [B]POSP:[/B] [URL="https://github.com/PotatoProject"]PotatoProject[/URL]
 [B]POSP Device Sources:[/B] [URL="https://github.com/PotatoDevices"]PotatoDevices[/URL]
 [B]POSP Code Review:[/B] [URL="https://review.potatoproject.co"]Gerrit Code Review[/URL]
 
-[IMG]https://i.imgur.com/pLlfPud.png[/IMG]
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/croquette-release/XDAThread/install.png[/IMG]
 [SIZE=+1][b]Clean Install[/b][/SIZE]
 - Backup all your data (Important)
 - Wipe /system, /data and cache.
@@ -74,7 +74,7 @@ Design:
 - Flash ROM
 - Reboot!
 
-[IMG]https://i.imgur.com/ZzzIdPw.png[/IMG]
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/croquette-release/XDAThread/download.png[/IMG]
 [B]ROM:[/B] [URL]https://sourceforge.net/projects/posp/files/beryllium/croquette[/URL]
 [B]GApps:[/B] [URL="opengapps.org"]OpenGApps[/URL]
 

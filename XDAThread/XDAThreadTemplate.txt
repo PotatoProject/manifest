@@ -87,8 +87,3 @@ Design:
 - OmniROM
 - LineageOS
 - Team Lawnchair for Lawnchair Launcher
-
-[CENTER]
-Hosted and built on
-[URL="https://packet.com"][IMG]https://www.packet.com/assets/images/logo-packet-equinix-main.png[/IMG][/URL]
-[/CENTER]

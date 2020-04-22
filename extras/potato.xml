@@ -91,6 +91,6 @@
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
 
   <!-- Others -->
-  <project name="flutter/flutter" path="external/flutter" revision="refs/heads/stable" remote="github" />
+  <project name="flutter/flutter" path="external/flutter" revision="v1.9.1-hotfixes" remote="github" />
   <project name="AgentFabulous/PotatoCenter" path="packages/apps/PotatoCenter" revision="refs/heads/baked-release" remote="github" />
 </manifest>

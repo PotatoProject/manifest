@@ -3,76 +3,73 @@
   <include name="extras/remove.xml" />
 
   <!-- Potato Repos -->
-  <project name="art" path="art" remote="potato" />
-  <project name="bionic" path="bionic" remote="potato" />
+  <project name="art"               path="art"               remote="potato" />
+  <project name="bionic"            path="bionic"            remote="potato" />
   <project name="bootable_recovery" path="bootable/recovery" remote="potato" />
-  <project name="build_blueprint" path="build/blueprint" remote="potato" />
-  <project name="build_make" path="build/make" groups="pdk" remote="potato">
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+  <project name="build_blueprint"   path="build/blueprint"   remote="potato" />
+  <project name="build_make"        path="build/make"        remote="potato" groups="pdk" >
+    <copyfile src="core/root.mk"         dest="Makefile" />
+    <linkfile src="CleanSpec.mk"         dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
+    <linkfile src="core"                 dest="build/core" />
+    <linkfile src="envsetup.sh"          dest="build/envsetup.sh" />
+    <linkfile src="target"               dest="build/target" />
+    <linkfile src="tools"                dest="build/tools" />
   </project>
   <project name="build_soong" path="build/soong" remote="potato" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="device_potato_sepolicy"         path="device/potato/sepolicy"         remote="potato" />
-  <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy"           remote="potato" revision="croquette-release" />
-  <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy-legacy"           remote="potato" revision="croquette-release-legacy" />
-  <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy-legacy-um"           remote="potato" revision="croquette-release-legacy-um" />
-  <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="potato" />
-  <project name="external_selinux"               path="external/selinux"               remote="potato" />
-  <project name="external_skia"                  path="external/skia"                  remote="potato" />
-  <project name="external_tinycompress"          path="external/tinycompress"          remote="potato" />
-  <project name="frameworks_av"                  path="frameworks/av"                  remote="potato" />
-  <project name="frameworks_base"                path="frameworks/base"                remote="potato" />
-  <project name="frameworks_native"              path="frameworks/native"              remote="potato" />
-  <project name="frameworks_opt_telephony"       path="frameworks/opt/telephony"       remote="potato" />
-  <project name="frameworks_opt_net_ims"         path="frameworks/opt/net/ims"         remote="potato" />
-  <project name="frameworks_potato"              path="frameworks/potato"              remote="potato" />
-  <project name="hardware_custom_telephony"      path="hardware/custom/telephony"      remote="potato" />
-  <project name="hardware_interfaces"            path="hardware/interfaces"            remote="potato" />
-  <project name="hardware_libhardware_legacy"    path="hardware/libhardware_legacy"    remote="potato" />
-  <project name="hardware_libhardware"           path="hardware/libhardware"           remote="potato" />
-  <project name="hardware_potato_interfaces"     path="hardware/potato/interfaces"     remote="potato" />
-  <project name="hardware_qcom_bootctrl"         path="hardware/qcom/bootctrl"         remote="potato" />
-  <project name="hardware_qcom_power"            path="hardware/qcom/power"            remote="potato" />
-  <project name="hardware_qcom_sdm845_bt"        path="hardware/qcom/sdm845/bt"        remote="potato" />
-  <project name="hardware_qcom_sdm845_data_ipacfg-mgr" path="hardware/qcom/sdm845/data/ipacfg-mgr" remote="potato" >
+  <project name="device_potato_sepolicy"                 path="device/potato/sepolicy"                    remote="potato" />
+  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy"                      remote="potato" />
+  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy-legacy"               remote="potato" revision="croquette-release-legacy" />
+  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy-legacy-um"            remote="potato" revision="croquette-release-legacy-um" />
+  <project name="external_selinux"                       path="external/selinux"                          remote="potato" />
+  <project name="external_skia"                          path="external/skia"                             remote="potato" />
+  <project name="external_sony_boringssl-compat"         path="external/sony/boringssl-compat"            remote="potato" />
+  <project name="external_tinycompress"                  path="external/tinycompress"                     remote="potato" />
+  <project name="frameworks_av"                          path="frameworks/av"                             remote="potato" />
+  <project name="frameworks_base"                        path="frameworks/base"                           remote="potato" />
+  <project name="frameworks_native"                      path="frameworks/native"                         remote="potato" />
+  <project name="frameworks_opt_net_ims"                 path="frameworks/opt/net/ims"                    remote="potato" />
+  <project name="frameworks_opt_telephony"               path="frameworks/opt/telephony"                  remote="potato" />
+  <project name="frameworks_potato"                      path="frameworks/potato"                         remote="potato" />
+  <project name="hardware_custom_telephony"              path="hardware/custom/telephony"                 remote="potato" />
+  <project name="hardware_interfaces"                    path="hardware/interfaces"                       remote="potato" />
+  <project name="hardware_libhardware"                   path="hardware/libhardware"                      remote="potato" />
+  <project name="hardware_libhardware_legacy"            path="hardware/libhardware_legacy"               remote="potato" />
+  <project name="hardware_potato_interfaces"             path="hardware/potato/interfaces"                remote="potato" />
+  <project name="hardware_qcom_bootctrl"                 path="hardware/qcom/bootctrl"                    remote="potato" />
+  <project name="hardware_qcom_power"                    path="hardware/qcom/power"                       remote="potato" />
+  <project name="hardware_qcom_sdm845_bt"                path="hardware/qcom/sdm845/bt"                   remote="potato" />
+  <project name="hardware_qcom_sdm845_data_ipacfg-mgr"   path="hardware/qcom/sdm845/data/ipacfg-mgr"      remote="potato" >
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
   </project>
-  <project name="hardware_qcom_sdm845_display"   path="hardware/qcom/sdm845/display"   remote="potato" />
-  <project name="hardware_qcom_sdm845_media"     path="hardware/qcom/sdm845/media"     remote="potato" />
-  <project name="hardware_ril"                   path="hardware/ril"                   remote="potato" />
-  <project name="packages_apps_DeskClock"        path="packages/apps/DeskClock"        remote="potato" />
-  <project name="packages_apps_Dialer"           path="packages/apps/Dialer"           remote="potato" />
-  <project name="packages_apps_Launcher3"        path="packages/apps/Launcher3"        remote="potato" />
-  <project name="packages_apps_Messaging"        path="packages/apps/Messaging"        remote="potato" />
-  <project name="packages_apps_Nfc"              path="packages/apps/Nfc"              remote="potato" />
-  <project name="packages_apps_PermissionController"         path="packages/apps/PermissionController"         remote="potato" />
-  <project name="packages_apps_Settings"         path="packages/apps/Settings"         remote="potato" />
-  <project name="packages_apps_SettingsIntelligence"         path="packages/apps/SettingsIntelligence"         remote="potato" />
-  <project name="packages_providers_DownloadProvider"         path="packages/providers/DownloadProvider"         remote="potato" />
-
-
-  <project name="prebuilts_gradle"               path="prebuilts/gradle"               remote="potato" />
-  <project name="system_bpf"                     path="system/bpf"                     remote="potato" />
-  <project name="system_bt"                      path="system/bt"                      remote="potato" />
-  <project name="system_core"                    path="system/core"                    remote="potato" />
-  <project name="system_netd"                    path="system/netd"                    remote="potato" />
-  <project name="system_sepolicy"                path="system/sepolicy"                remote="potato" />
-  <project name="system_update_engine"           path="system/update_engine"           remote="potato" />
-  <project name="system_vold"                    path="system/vold"                    remote="potato" />
-  <project name="vendor_codeaurora_telephony"    path="vendor/codeaurora/telephony"    remote="potato" />
-  <project name="vendor_potato"                  path="vendor/potato"                  remote="potato" />
-  <project name="vendor_potato-prebuilts"        path="vendor/potato-prebuilts"        remote="potato" />
-  <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="potato" />
-  <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="potato" />
-  <project name="packages_services_Telephony"    path="packages/services/Telephony"    remote="potato" />
+  <project name="hardware_qcom_sdm845_display"            path="hardware/qcom/sdm845/display"             remote="potato" />
+  <project name="hardware_qcom_sdm845_media"              path="hardware/qcom/sdm845/media"               remote="potato" />
+  <project name="hardware_ril"                            path="hardware/ril"                             remote="potato" />
+  <project name="packages_apps_DeskClock"                 path="packages/apps/DeskClock"                  remote="potato" />
+  <project name="packages_apps_Dialer"                    path="packages/apps/Dialer"                     remote="potato" />
+  <project name="packages_apps_Launcher3"                 path="packages/apps/Launcher3"                  remote="potato" />
+  <project name="packages_apps_Messaging"                 path="packages/apps/Messaging"                  remote="potato" />
+  <project name="packages_apps_Nfc"                       path="packages/apps/Nfc"                        remote="potato" />
+  <project name="packages_apps_PermissionController"      path="packages/apps/PermissionController"       remote="potato" />
+  <project name="packages_apps_Settings"                  path="packages/apps/Settings"                   remote="potato" />
+  <project name="packages_apps_SettingsIntelligence"      path="packages/apps/SettingsIntelligence"       remote="potato" />
+  <project name="packages_providers_DownloadProvider"     path="packages/providers/DownloadProvider"      remote="potato" />
+  <project name="packages_services_Telephony"             path="packages/services/Telephony"              remote="potato" />
+  <project name="system_bpf"                              path="system/bpf"                               remote="potato" />
+  <project name="system_bt"                               path="system/bt"                                remote="potato" />
+  <project name="system_core"                             path="system/core"                              remote="potato" />
+  <project name="system_netd"                             path="system/netd"                              remote="potato" />
+  <project name="system_sepolicy"                         path="system/sepolicy"                          remote="potato" />
+  <project name="system_update_engine"                    path="system/update_engine"                     remote="potato" />
+  <project name="system_vold"                             path="system/vold"                              remote="potato" />
+  <project name="vendor_codeaurora_telephony"             path="vendor/codeaurora/telephony"              remote="potato" />
+  <project name="vendor_potato"                           path="vendor/potato"                            remote="potato" />
+  <project name="vendor_potato-prebuilts"                 path="vendor/potato-prebuilts"                  remote="potato" />
+  <project name="vendor_qcom_opensource_cryptfs_hw"       path="vendor/qcom/opensource/cryptfs_hw"        remote="potato" />
+  <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="potato" />
 
 </manifest>

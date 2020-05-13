@@ -86,4 +86,5 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 </manifest>

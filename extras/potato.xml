@@ -77,5 +77,6 @@
   <project name="vendor_potato-prebuilts"                 path="vendor/potato-prebuilts"                  remote="potato" />
   <project name="vendor_qcom_opensource_cryptfs_hw"       path="vendor/qcom/opensource/cryptfs_hw"        remote="potato" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="potato" />
+  <project name="AOSiP/platform_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="refs/heads/ten"  />
 
 </manifest>

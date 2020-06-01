@@ -67,6 +67,8 @@
   <project name="system_update_engine"                    path="system/update_engine"                     remote="potato" />
   <project name="system_vold"                             path="system/vold"                              remote="potato" />
   <project name="vendor_codeaurora_telephony"             path="vendor/codeaurora/telephony"              remote="potato" />
+  <project name="vendor_mediatek_hardware_interfaces"     path="vendor/mediatek/hardware/interfaces"      remote="potato" />
+  <project name="vendor_mediatek_hardware_telephony-ext"  path="vendor/mediatek/hardware/telephony-ext"   remote="potato" />
   <project name="vendor_potato"                           path="vendor/potato"                            remote="potato" />
   <project name="vendor_potato-prebuilts"                 path="vendor/potato-prebuilts"                  remote="potato" />
   <project name="vendor_qcom_opensource_cryptfs_hw"       path="vendor/qcom/opensource/cryptfs_hw"        remote="potato" />

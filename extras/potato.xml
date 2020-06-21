@@ -32,6 +32,7 @@
   <project name="frameworks_base"                        path="frameworks/base"                           remote="potato" />
   <project name="frameworks_native"                      path="frameworks/native"                         remote="potato" />
   <project name="frameworks_opt_net_ims"                 path="frameworks/opt/net/ims"                    remote="potato" />
+  <project name="frameworks_opt_net_wifi"                path="frameworks/opt/net/wifi"                   remote="potato" />
   <project name="frameworks_opt_telephony"               path="frameworks/opt/telephony"                  remote="potato" />
   <project name="frameworks_potato"                      path="frameworks/potato"                         remote="potato" />
   <project name="hardware_custom_telephony"              path="hardware/custom/telephony"                 remote="potato" />

@@ -18,6 +18,10 @@
           fetch="https://github.com/LineageOS"
           revision="refs/heads/lineage-17.1" />
 
+  <remote name="pospx"
+          fetch="https://github.com/pospx"
+          revision="refs/heads/croquette-release" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />

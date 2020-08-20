@@ -20,6 +20,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project name="device_mediatek_sepolicy"               path="device/mediatek/sepolicy"                  remote="potato" />
   <project name="device_potato_sepolicy"                 path="device/potato/sepolicy"                    remote="potato" />
   <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy"                      remote="potato" />
   <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy-legacy"               remote="potato" revision="croquette-release-legacy" />

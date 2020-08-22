@@ -74,7 +74,7 @@
   <project name="vendor_mediatek_hardware_interfaces"     path="vendor/mediatek/hardware/interfaces"      remote="potato" />
   <project name="vendor_mediatek_hardware_telephony-ext"  path="vendor/mediatek/hardware/telephony-ext"   remote="potato" />
   <project name="vendor_potato"                           path="vendor/potato"                            remote="potato" />
-  <project name="vendor_potato-prebuilts"                 path="vendor/potato-prebuilts"                  remote="potato" />
+  <project name="vendor_potato-prebuilts"                 path="vendor/potato-prebuilts"                  remote="potato" clone-depth="1" />
   <project name="vendor_qcom_opensource_cryptfs_hw"       path="vendor/qcom/opensource/cryptfs_hw"        remote="potato" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="potato" />
 

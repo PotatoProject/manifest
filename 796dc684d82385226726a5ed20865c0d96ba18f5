@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e0f98980_014cf9a0",
+        "filename": "extras/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2020-08-25T16:20:27Z",
+      "side": 1,
+      "message": "Should be sorted alphabetically with projects above it",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 116
+      },
+      "revId": "796dc684d82385226726a5ed20865c0d96ba18f5",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    }
+  ]
+}

@@ -10,6 +10,10 @@
           fetch="https://github.com/PotatoProject"
           revision="refs/heads/croquette-release" />
 
+  <remote name="potato-next"
+          fetch="https://github.com/PotatoProject-next"
+          revision="refs/heads/d-staging1" />
+
   <remote name="devices"
           fetch="https://github.com/PotatoDevices"
           revision="refs/heads/croquette-release" />

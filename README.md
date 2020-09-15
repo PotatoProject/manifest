@@ -24,7 +24,7 @@ Tastier than ever!
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/PotatoProject/manifest -b croquette-release;
+        repo init -u https://github.com/PotatoProject-next/manifest -b d-staging1;
         repo sync;
         ```
     3. The ROM sauce is ready! Get ready to prepare your device-specific sauce.

@@ -2,9 +2,10 @@
 <manifest>
   <include name="extras/remove.xml" />
 
-  <!-- Potato Repos -->
-  <project name="bionic"        path="bionic"        remote="potato-next" />
-  <project name="build_make"        path="build/make"        remote="potato-next" groups="pdk" >
+  <!-- Build repos -->
+  <project name="bionic"        path="bionic"      remote="potato-next" />
+  <project name="build_blueprint"  path="build/blueprint"  remote="potato-next" groups="pdk,tradefed" />
+  <project name="build_make"    path="build/make"  remote="potato-next" groups="pdk" >
     <copyfile src="core/root.mk"         dest="Makefile" />
     <linkfile src="CleanSpec.mk"         dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -13,65 +14,74 @@
     <linkfile src="target"               dest="build/target" />
     <linkfile src="tools"                dest="build/tools" />
   </project>
-  <project name="build_soong" path="build/soong" remote="potato-next" groups="pdk,tradefed" >
+  <project name="build_soong" path="build/soong" remote="potato-next" revision="dstaging-raj" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="device_mediatek_sepolicy"               path="device/mediatek/sepolicy"                  remote="potato-next" />
-  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy"                      remote="potato" />
-  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy-legacy"               remote="potato" revision="croquette-release-legacy" />
-  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy-legacy-um"            remote="potato-next" revision="d-staging1-legacy-um" />
-  <project name="external_selinux"                       path="external/selinux"                          remote="potato-next" />
-  <project name="frameworks_base"                        path="frameworks/base"                           remote="potato-next" />
-  <project name="frameworks_opt_net_ims"                 path="frameworks/opt/net/ims"                    remote="potato-next" />
-  <project name="frameworks_opt_net_wifi"                path="frameworks/opt/net/wifi"                   remote="potato-next" />
-  <project name="hardware_interfaces"                    path="hardware/interfaces"                       remote="potato-next" />
-  <project name="hardware_libhardware_legacy"            path="hardware/libhardware_legacy"               remote="potato-next" />
-  <project name="hardware_qcom_bootctrl"                 path="hardware/qcom/bootctrl"                    remote="potato" />
-  <project name="hardware_qcom_power"                    path="hardware/qcom/power"                       remote="potato" />
-  <project name="hardware_qcom_sdm845_bt"                path="hardware/qcom/sdm845/bt"                   remote="potato" />
-  <project name="hardware_qcom_sdm845_data_ipacfg-mgr"   path="hardware/qcom/sdm845/data/ipacfg-mgr"      remote="potato" >
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-  </project>
-  <project name="hardware_qcom_sdm845_display"           path="hardware/qcom/sdm845/display"              remote="potato" />
-  <project name="hardware_qcom_sdm845_media"             path="hardware/qcom/sdm845/media"                remote="potato" />
-  <project name="prebuilts_abi-dumps_vndk"               path="prebuilts/abi-dumps/vndk"                  remote="potato-next" clone-depth="1" />
-  <project name="system_core"                            path="system/core"                               remote="potato-next" />
-  <project name="system_netd"                            path="system/netd"                               remote="potato-next" />
-  <project name="vendor_potato"                          path="vendor/potato"                             remote="potato-next" />
-  <project name="vendor_potato-prebuilts"                path="vendor/potato-prebuilts"                   remote="potato-next" clone-depth="1" />
-  <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"  remote="potato" />
 
-  <!-- QCOM CAF -->
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="potato-next" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- for AOSP sdm845, we override os_pickup.mk -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-  </project>
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="potato-next" revision="d-staging1-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="potato-next" revision="d-staging1-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="potato-next" revision="d-staging1-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="potato-next" revision="d-staging1-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio" remote="potato-next" revision="d-staging1-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" remote="potato-next" revision="d-staging1-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" remote="potato-next" revision="d-staging1-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" remote="potato-next" revision="d-staging1-caf-sm8150" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="potato-next" revision="d-staging1-caf" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="potato-next" revision="dumaloo-release" />
+  <project name="tools_metalava" path="tools/metalava" remote="potato-next" />
+  
+  <!-- Sepolicy repos -->
+  <project name="device_mediatek_sepolicy"               path="device/mediatek/sepolicy"    remote="potato-next" />
+  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy"        remote="potato-next" />
+  <project name="device_qcom_sepolicy_vndr"              path="device/qcom/sepolicy_vndr"   remote="potato-next" />
+  <project name="device_potato_sepolicy"                 path="device/potato/sepolicy"      remote="potato-next" />
+  
+  <!-- Framework repos -->
+  <project name="frameworks_av"              path="frameworks/av"              remote="potato-next" />
+  <project name="frameworks_base"            path="frameworks/base"            remote="potato-next" />
+  <project name="frameworks_native"          path="frameworks/native"          remote="potato-next" />
+  <project name="frameworks_opt_telephony"   path="frameworks/opt/telephony"   remote="potato-next" />
+  <project name="frameworks_opt_net_wifi"    path="frameworks/opt/net/wifi"    remote="potato-next" />
+
+  <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="potato-next" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="potato-next" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="potato-next" />
+  <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="potato-next" />
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="potato-next" />
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="potato-next" />
+ 
+  <!-- External repos --> 
+  <project name="external_guice"             path="external/guice"                remote="potato-next"  />
+  <project name="external_tinycompress"      path="external/tinycompress"         remote="potato-next" />
+  <project name="external_selinux"           path="external/selinux"              remote="potato-next" />
+  <project name="external_json-c"            path="external/json-c"               remote="potato-next" />
+  <project name="external_libcxx"            path="external/libcxx"               remote="potato-next" />
+
+  <!-- Prebuilt repos -->
+  <project name="prebuilts_abi-dumps_vndk"   path="prebuilts/abi-dumps/vndk"      remote="potato-next" clone-depth="1" />
+
+  <!-- System repos -->
+  <project name="system_netd"                            path="system/netd"                remote="potato-next" />
+  <project name="system_core"                            path="system/core"                remote="potato-next" />
+  <project name="system_vold"                            path="system/vold"                remote="potato-next" />
+  <project name="system_sepolicy"                        path="system/sepolicy"            remote="potato-next" />
+  <project name="system_bt"                              path="system/bt"                  remote="potato-next" />
+  <project name="system_libufdt"                         path="system/libufdt"             remote="potato-next" />
+  <project name="system_tools_mkbootimg"                 path="system/tools/mkbootimg"     remote="potato-next" />
+
+  <!-- Hardware repos -->
+  <project name="hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="potato-next" />
+  <project name="hardware_interfaces"                    path="hardware/interfaces"          remote="potato-next" />
+  <project name="hardware_potato_interfaces"                    path="hardware/potato/interfaces"          remote="potato-next" />
+  <project name="hardware_libhardware"            path="hardware/libhardware"               remote="potato-next" />
+  <project name="hardware_libhardware_legacy"            path="hardware/libhardware_legacy"               remote="potato-next" />
+  <project name="hardware_knowles_athletico_sound_trigger_hal"            path="hardware/knowles/athletico/sound_trigger_hal"               remote="potato-next" />
+
+  <!-- Vendor repos -->
+  <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="potato-next" />
+  <project name="vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="potato-next" />
+  <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="potato-next" />
+  <project name="vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="potato-next" />
+  <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="potato-next" />
+  <project name="vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="potato-next"/>
+  <project name="vendor_qcom_opensource_bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="potato-next" />
+  <project name="vendor_qcom_opensource_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="potato-next"/>
+  <project name="vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator"  remote="potato-next"/>
+  <project name="vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb"  remote="potato-next"/>
+
+  <project name="vendor_potato"                          path="vendor/potato"                       remote="potato-next" />
+  <project name="vendor_potato-prebuilts"                path="vendor/potato-prebuilts"             remote="potato-next" clone-depth="1" />
+	
 </manifest>

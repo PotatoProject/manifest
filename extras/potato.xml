@@ -67,8 +67,11 @@
   <project name="hardware_potato_interfaces"                    path="hardware/potato/interfaces"          remote="potato-next" />
   <project name="hardware_libhardware"            path="hardware/libhardware"               remote="potato-next" />
   <project name="hardware_libhardware_legacy"            path="hardware/libhardware_legacy"               remote="potato-next" />
-  <project name="hardware_knowles_athletico_sound_trigger_hal"            path="hardware/knowles/athletico/sound_trigger_hal"               remote="potato-next" />
-
+  <project name="hardware_knowles_athletico_sound_trigger_hal"            path="hardware/knowles/athletico/sound_trigger_hal" remote="potato-next" />
+  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt" groups="qcom" remote="potato-next" revision="dumaloo-release-caf" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="potato-next" revision="dumaloo-release" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="potato-next" revision="dumaloo-release-caf" />
+ 
   <!-- Vendor repos -->
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="potato-next" />
   <project name="vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="potato-next" />

@@ -27,7 +27,8 @@
   <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy"        remote="potato-next" />
   <project name="device_qcom_sepolicy_vndr"              path="device/qcom/sepolicy_vndr"   remote="potato-next" />
   <project name="device_potato_sepolicy"                 path="device/potato/sepolicy"      remote="potato-next" />
-  
+  <project name="device_qcom_sepolicy-legacy-um"         path="device/qcom/sepolicy-legacy-um"  revision="dumaloo-release-legacy-um" remote="potato-next" />
+
   <!-- Framework repos -->
   <project name="frameworks_av"              path="frameworks/av"              remote="potato-next" />
   <project name="frameworks_base"            path="frameworks/base"            remote="potato-next" />
@@ -35,12 +36,14 @@
   <project name="frameworks_opt_telephony"   path="frameworks/opt/telephony"   remote="potato-next" />
   <project name="frameworks_opt_net_wifi"    path="frameworks/opt/net/wifi"    remote="potato-next" />
 
+  <!-- Packages -->
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="potato-next" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="potato-next" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="potato-next" />
   <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="potato-next" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="potato-next" />
   <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="potato-next" />
+  <project name="packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="potato-next" />
  
   <!-- External repos --> 
   <project name="external_guice"             path="external/guice"                remote="potato-next"  />

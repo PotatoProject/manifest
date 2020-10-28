@@ -8,7 +8,7 @@
 
   <remote name="potato"
           fetch="https://github.com/PotatoProject"
-          revision="refs/heads/croquette-release" />
+          revision="refs/heads/dumaloo-release" />
 
   <remote name="potato-next"
           fetch="https://github.com/PotatoProject-next"

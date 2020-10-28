@@ -3,9 +3,9 @@
   <include name="extras/remove.xml" />
 
   <!-- Build repos -->
-  <project name="bionic"        path="bionic"      remote="potato-next" />
-  <project name="build_blueprint"  path="build/blueprint"  remote="potato-next" groups="pdk,tradefed" />
-  <project name="build_make"    path="build/make"  remote="potato-next" groups="pdk" >
+  <project name="bionic"          path="bionic"           remote="potato" />
+  <project name="build_blueprint" path="build/blueprint"  remote="potato" groups="pdk,tradefed" />
+  <project name="build_make"      path="build/make"       remote="potato" groups="pdk" >
     <copyfile src="core/root.mk"         dest="Makefile" />
     <linkfile src="CleanSpec.mk"         dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -14,80 +14,78 @@
     <linkfile src="target"               dest="build/target" />
     <linkfile src="tools"                dest="build/tools" />
   </project>
-  <project name="build_soong" path="build/soong" remote="potato-next" revision="dstaging-raj" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="potato" revision="dumaloo-release" />
+  <project name="build_soong"       path="build/soong"       remote="potato" groups="pdk,tradefed" >
+    <linkfile src="root.bp"        dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
-  <project name="bootable_recovery" path="bootable/recovery" remote="potato-next" revision="dumaloo-release" />
-  <project name="tools_metalava" path="tools/metalava" remote="potato-next" />
+  <project name="tools_metalava"    path="tools/metalava"    remote="potato" />
   
   <!-- Sepolicy repos -->
-  <project name="device_mediatek_sepolicy"               path="device/mediatek/sepolicy"    remote="potato-next" />
-  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy"        remote="potato-next" />
-  <project name="device_qcom_sepolicy_vndr"              path="device/qcom/sepolicy_vndr"   remote="potato-next" />
-  <project name="device_potato_sepolicy"                 path="device/potato/sepolicy"      remote="potato-next" />
-  <project name="device_qcom_sepolicy-legacy-um"         path="device/qcom/sepolicy-legacy-um"  revision="dumaloo-release-legacy-um" remote="potato-next" />
+  <project name="device_mediatek_sepolicy"               path="device/mediatek/sepolicy"       remote="potato" />
+  <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy"           remote="potato" />
+  <project name="device_qcom_sepolicy_vndr"              path="device/qcom/sepolicy_vndr"      remote="potato" />
+  <project name="device_potato_sepolicy"                 path="device/potato/sepolicy"         remote="potato" />
+  <project name="device_qcom_sepolicy-legacy-um"         path="device/qcom/sepolicy-legacy-um" remote="potato" revision="dumaloo-release-legacy-um" />
 
   <!-- Framework repos -->
-  <project name="frameworks_av"              path="frameworks/av"              remote="potato-next" />
-  <project name="frameworks_base"            path="frameworks/base"            remote="potato-next" />
-  <project name="frameworks_native"          path="frameworks/native"          remote="potato-next" />
-  <project name="frameworks_opt_telephony"   path="frameworks/opt/telephony"   remote="potato-next" />
-  <project name="frameworks_opt_net_wifi"    path="frameworks/opt/net/wifi"    remote="potato-next" />
+  <project name="frameworks_av"            path="frameworks/av"            remote="potato" />
+  <project name="frameworks_base"          path="frameworks/base"          remote="potato" />
+  <project name="frameworks_native"        path="frameworks/native"        remote="potato" />
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="potato" />
+  <project name="frameworks_opt_net_wifi"  path="frameworks/opt/net/wifi"  remote="potato" />
 
   <!-- Packages -->
-  <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="potato-next" />
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="potato-next" />
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="potato-next" />
-  <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="potato-next" />
-  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="potato-next" />
-  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="potato-next" />
-  <project name="packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="potato-next" />
+  <project name="packages_apps_Bluetooth"       path="packages/apps/Bluetooth"       remote="potato" />
+  <project name="packages_apps_Launcher3"       path="packages/apps/Launcher3"       remote="potato" />
+  <project name="packages_apps_Settings"        path="packages/apps/Settings"        remote="potato" />
+  <project name="packages_apps_ThemePicker"     path="packages/apps/ThemePicker"     remote="potato" />
+  <project name="packages_services_Telephony"   path="packages/services/Telephony"   remote="potato" />
+  <project name="packages_services_Telecomm"    path="packages/services/Telecomm"    remote="potato" />
+  <project name="packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="potato" />
  
   <!-- External repos --> 
-  <project name="external_guice"             path="external/guice"                remote="potato-next"  />
-  <project name="external_tinycompress"      path="external/tinycompress"         remote="potato-next" />
-  <project name="external_selinux"           path="external/selinux"              remote="potato-next" />
-  <project name="external_json-c"            path="external/json-c"               remote="potato-next" />
-  <project name="external_libcxx"            path="external/libcxx"               remote="potato-next" />
+  <project name="external_guice"        path="external/guice"        remote="potato"  />
+  <project name="external_tinycompress" path="external/tinycompress" remote="potato" />
+  <project name="external_selinux"      path="external/selinux"      remote="potato" />
+  <project name="external_json-c"       path="external/json-c"       remote="potato" />
+  <project name="external_libcxx"       path="external/libcxx"       remote="potato" />
 
   <!-- Prebuilt repos -->
-  <project name="prebuilts_abi-dumps_vndk"   path="prebuilts/abi-dumps/vndk"      remote="potato-next" clone-depth="1" />
+  <project name="prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="potato" clone-depth="1" />
 
   <!-- System repos -->
-  <project name="system_netd"                            path="system/netd"                remote="potato-next" />
-  <project name="system_core"                            path="system/core"                remote="potato-next" />
-  <project name="system_vold"                            path="system/vold"                remote="potato-next" />
-  <project name="system_sepolicy"                        path="system/sepolicy"            remote="potato-next" />
-  <project name="system_bt"                              path="system/bt"                  remote="potato-next" />
-  <project name="system_libufdt"                         path="system/libufdt"             remote="potato-next" />
-  <project name="system_tools_mkbootimg"                 path="system/tools/mkbootimg"     remote="potato-next" />
+  <project name="system_netd"            path="system/netd"            remote="potato" />
+  <project name="system_core"            path="system/core"            remote="potato" />
+  <project name="system_vold"            path="system/vold"            remote="potato" />
+  <project name="system_sepolicy"        path="system/sepolicy"        remote="potato" />
+  <project name="system_bt"              path="system/bt"              remote="potato" />
+  <project name="system_libufdt"         path="system/libufdt"         remote="potato" />
+  <project name="system_tools_mkbootimg" path="system/tools/mkbootimg" remote="potato" />
 
   <!-- Hardware repos -->
-  <project name="hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="potato-next" />
-  <project name="hardware_interfaces"                    path="hardware/interfaces"          remote="potato-next" />
-  <project name="hardware_potato_interfaces"                    path="hardware/potato/interfaces"          remote="potato-next" />
-  <project name="hardware_libhardware"            path="hardware/libhardware"               remote="potato-next" />
-  <project name="hardware_libhardware_legacy"            path="hardware/libhardware_legacy"               remote="potato-next" />
-  <project name="hardware_knowles_athletico_sound_trigger_hal"            path="hardware/knowles/athletico/sound_trigger_hal" remote="potato-next" />
-  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt" groups="qcom" remote="potato-next" revision="dumaloo-release-caf" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="potato-next" revision="dumaloo-release" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="potato-next" revision="dumaloo-release-caf" />
+  <project name="hardware_qcom_bootctrl"      path="hardware/qcom/bootctrl"      remote="potato" />
+  <project name="hardware_interfaces"         path="hardware/interfaces"         remote="potato" />
+  <project name="hardware_potato_interfaces"  path="hardware/potato/interfaces"  remote="potato" />
+  <project name="hardware_libhardware"        path="hardware/libhardware"        remote="potato" />
+  <project name="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="potato" />
+  <project name="hardware_qcom_bt"            path="hardware/qcom-caf/bt"   remote="potato" groups="qcom"      revision="dumaloo-release-caf" />
+  <project name="hardware_qcom_bt"            path="hardware/qcom/bt"       remote="potato" groups="qcom"      revision="dumaloo-release" />
+  <project name="hardware_qcom_wlan"          path="hardware/qcom-caf/wlan" remote="potato" groups="qcom_wlan" revision="dumaloo-release-caf" />
+  <project name="hardware_knowles_athletico_sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" remote="potato" />
  
   <!-- Vendor repos -->
-  <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="potato-next" />
-  <project name="vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="potato-next" />
-  <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="potato-next" />
-  <project name="vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="potato-next" />
-  <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="potato-next" />
-  <project name="vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="potato-next"/>
-  <project name="vendor_qcom_opensource_bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="potato-next" />
+  <project name="vendor_codeaurora_telephony"          path="vendor/codeaurora/telephony"                    remote="potato-next" />
+  <project name="vendor_qcom_opensource_dataservices"  path="vendor/qcom/opensource/dataservices"            remote="potato-next" />
+  <project name="vendor_qcom_opensource_fm-commonsys"  path="vendor/qcom/opensource/fm-commonsys"            remote="potato-next" />
+  <project name="vendor_qcom_opensource_interfaces"    path="vendor/qcom/opensource/interfaces"              remote="potato-next" />
+  <project name="vendor_qcom_opensource_system_bt"     path="vendor/qcom/opensource/commonsys/system/bt"     remote="potato-next"/>
   <project name="vendor_qcom_opensource_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="potato-next"/>
-  <project name="vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator"  remote="potato-next"/>
-  <project name="vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb"  remote="potato-next"/>
-
-  <project name="vendor_potato"                          path="vendor/potato"                       remote="potato-next" />
-  <project name="vendor_potato-prebuilts"                path="vendor/potato-prebuilts"             remote="potato-next" clone-depth="1" />
+  <project name="vendor_qcom_opensource_vibrator"      path="vendor/qcom/opensource/vibrator"                remote="potato-next"/>
+  <project name="vendor_qcom_opensource_usb"           path="vendor/qcom/opensource/usb"                     remote="potato-next"/>
+  <project name="vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="potato-next" />
+  <project name="vendor_qcom_opensource_bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="potato-next" />
+  <project name="vendor_potato"                          path="vendor/potato"                       remote="potato" />
+  <project name="vendor_potato-prebuilts"                path="vendor/potato-prebuilts"             remote="potato" clone-depth="1" />
 	
 </manifest>

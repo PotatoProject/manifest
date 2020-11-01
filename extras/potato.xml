@@ -26,7 +26,7 @@
   <project name="device_qcom_sepolicy"                   path="device/qcom/sepolicy"           remote="potato" />
   <project name="device_qcom_sepolicy_vndr"              path="device/qcom/sepolicy_vndr"      remote="potato" />
   <project name="device_potato_sepolicy"                 path="device/potato/sepolicy"         remote="potato" />
-  <project name="device_qcom_sepolicy-legacy-um"         path="device/qcom/sepolicy-legacy-um" remote="potato" revision="dumaloo-release-legacy-um" />
+  <project name="device_qcom_sepolicy-legacy-um"         path="device/qcom/sepolicy-legacy-um" remote="potato" />
 
   <!-- Framework repos -->
   <project name="frameworks_av"            path="frameworks/av"            remote="potato" />

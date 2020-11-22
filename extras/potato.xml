@@ -36,17 +36,17 @@
   <project name="frameworks_opt_net_wifi"  path="frameworks/opt/net/wifi"  remote="potato" />
 
   <!-- Packages -->
-  <project name="packages_apps_Bluetooth"       path="packages/apps/Bluetooth"       remote="potato" />
-  <project name="packages_apps_Launcher3"       path="packages/apps/Launcher3"       remote="potato" />
-  <project name="packages_apps_Nfc"             path="packages/apps/Nfc"             remote="potato" />
-  <project name="packages_apps_Settings"        path="packages/apps/Settings"        remote="potato" />
-  <project name="packages_apps_ThemePicker"     path="packages/apps/ThemePicker"     remote="potato" />
-  <project name="packages_services_Telephony"   path="packages/services/Telephony"   remote="potato" />
-  <project name="packages_services_Telecomm"    path="packages/services/Telecomm"    remote="potato" />
-  <project name="packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="potato" />
+  <project name="packages_apps_Bluetooth"             path="packages/apps/Bluetooth"            remote="potato" />
+  <project name="packages_apps_Launcher3"             path="packages/apps/Launcher3"            remote="potato" />
+  <project name="packages_apps_Nfc"                   path="packages/apps/Nfc"                  remote="potato" />
+  <project name="packages_apps_Settings"              path="packages/apps/Settings"             remote="potato" />
+  <project name="packages_apps_SettingsIntelligence"  path="packages/apps/SettingsIntelligence" remote="potato" />
+  <project name="packages_apps_ThemePicker"           path="packages/apps/ThemePicker"          remote="potato" />
+  <project name="packages_services_Telephony"         path="packages/services/Telephony"        remote="potato" />
+  <project name="packages_services_Telecomm"          path="packages/services/Telecomm"         remote="potato" />
+  <project name="packages_modules_NetworkStack"       path="packages/modules/NetworkStack"      remote="potato" />
  
   <!-- External repos --> 
-  <project name="external_exfat"        path="external/exfat"        remote="potato"  />
   <project name="external_guice"        path="external/guice"        remote="potato"  />
   <project name="external_tinycompress" path="external/tinycompress" remote="potato" />
   <project name="external_selinux"      path="external/selinux"      remote="potato" />

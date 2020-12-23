@@ -68,7 +68,7 @@ Telegram[/B]: [URL]https://telegram.me/SaucyPotatoesOfficial[/URL]
 [B][SIZE=5]Clean Install[/SIZE][/B]
 - Backup all your data (Important)
 - Wipe /system, /data and cache.
-- Flash the ROM + GApps (Download link below)
+- Flash the ROM + NikGApps (Download link below)
 - Reboot
 
 [B][SIZE=5]Updates[/SIZE][/B]
@@ -78,7 +78,7 @@ Telegram[/B]: [URL]https://telegram.me/SaucyPotatoesOfficial[/URL]
 [IMG]https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/download.png[/IMG]
 
 [B]ROM:[/B] [URL]https://sourceforge.net/projects/posp/files/beryllium/dumaloo[/URL]
-[B]GApps:[/B] [URL='http://opengapps.org']OpenGApps[/URL]
+[B]NikGApps:[/B] [URL='https://nikgapps.com/']NikGApps[/URL]
 
 [SIZE=5][B]Credits[/B][/SIZE]
 - Google for AOSP

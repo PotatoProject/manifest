@@ -9,7 +9,7 @@ Credits
  * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
  * [**LineageOS**](https://github.com/LineageOS)
 
-# croquette-release
+# dumaloo-release
 Tastier than ever!
 
 ### Ingredients

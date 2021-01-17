@@ -20,7 +20,7 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS" 
-          revision="refs/heads/lineage-18.0" />
+          revision="refs/heads/lineage-18.1" />
 
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"

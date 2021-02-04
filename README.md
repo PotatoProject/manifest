@@ -1,5 +1,5 @@
 # Potato Open Sauce Project
-<img src="https://i.imgur.com/tmt6SBG.png">
+<img src="https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png">
 Haters gonna hate, potatoes gonna potate!
 
 Credits
@@ -9,7 +9,7 @@ Credits
  * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
  * [**LineageOS**](https://github.com/LineageOS)
 
-# croquette-release
+# dumaloo-release (Android 11)
 Tastier than ever!
 
 ### Ingredients
@@ -51,13 +51,13 @@ Tastier than ever!
     1. Run
         ```
         source build/envsetup.sh;
-        add_lunch_combo potato_<device>-userdebug;
+        lunch potato_<device>-userdebug;
         brunch <device>;
         ```
         Example:
         ```
         source build/envsetup.sh;
-        add_lunch_combo potato_beryllium-userdebug;
+        lunch potato_beryllium-userdebug;
         brunch beryllium;
         ```
     2. This will start compiling the build. Keep the potato near you for luck. You may optionally eat cheese while the build compiles.

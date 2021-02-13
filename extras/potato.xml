@@ -83,14 +83,10 @@
   <project name="hardware_qcom_bt"            path="hardware/qcom/bt"       remote="potato" groups="qcom"      revision="dumaloo-release" />
   <project name="hardware_qcom_wlan"          path="hardware/qcom-caf/wlan" remote="potato" groups="qcom_wlan" revision="dumaloo-release-caf" />
   <project name="hardware_knowles_athletico_sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" remote="potato" />
- 
+
   <!-- Vendor repos -->
-  <project name="vendor_codeaurora_telephony"          path="vendor/codeaurora/telephony"                    remote="potato-next" />
-  <project name="vendor_qcom_opensource_system_bt"     path="vendor/qcom/opensource/commonsys/system/bt"     remote="potato-next"/>
-  <project name="vendor_qcom_opensource_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="potato-next"/>
-  <project name="vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="potato-next" />
-  <project name="vendor_qcom_opensource_bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="potato-next" />
+  <project name="vendor_codeaurora_telephony"            path="vendor/codeaurora/telephony"         remote="potato" />
   <project name="vendor_potato"                          path="vendor/potato"                       remote="potato" />
   <project name="vendor_potato-prebuilts"                path="vendor/potato-prebuilts"             remote="potato" clone-depth="1" />
-	
+
 </manifest>

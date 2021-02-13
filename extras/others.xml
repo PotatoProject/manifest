@@ -3,6 +3,8 @@
 <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage"/>
 <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage"/>
 <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage"/>
+<project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage"/>
+<project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage"/>
 <project name="android_external_exfatprogs"   path="external/exfatprogs"   remote="lineage" />
 <project name="android_external_ntfs-3g"      path="external/ntfs-3g"      remote="lineage" />
 <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
@@ -87,6 +89,10 @@
 <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage"/>
 <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage"/>
 <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage"/>
+<project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" />
+<project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" />
+<project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" />
+<project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lineage" />
 <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" />
 <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="lineage"/>
 <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" />

@@ -48,6 +48,7 @@
   <project name="packages_apps_SettingsIntelligence"  path="packages/apps/SettingsIntelligence"   remote="potato" />
   <project name="packages_apps_Plugins"               path="packages/apps/Plugins"                remote="potato" />
   <project name="packages_apps_PermissionController"  path="packages/apps/PermissionController"   remote="potato" />
+  <project name="packages_apps_Updater"               path="packages/apps/Updater"                remote="potato" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider"  remote="potato" />
   <project name="packages_services_Telephony"         path="packages/services/Telephony"          remote="potato" />
   <project name="packages_services_Telecomm"          path="packages/services/Telecomm"           remote="potato" />

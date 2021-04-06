@@ -118,4 +118,7 @@
 <!-- FMRadio -->
 <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage"/>
 
+  <!-- AOSP rart -->
+  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="refs/tags/android-11.0.0_r34" />
+
 </manifest>

@@ -39,6 +39,7 @@
 
   <!-- Packages -->
   <project name="packages_apps_Bluetooth"             path="packages/apps/Bluetooth"              remote="potato" />
+  <project name="packages_apps_Contacts"              path="packages/apps/Contacts"               remote="potato" />
   <project name="packages_apps_DeskClock"             path="packages/apps/DeskClock"              remote="potato" />
   <project name="packages_apps_Dialer"                path="packages/apps/Dialer"                 remote="potato" />
   <project name="packages_apps_Launcher3"             path="packages/apps/Launcher3"              remote="potato" />

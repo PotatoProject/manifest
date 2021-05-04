@@ -55,8 +55,6 @@
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/libunwind" />
-
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />

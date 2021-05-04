@@ -70,6 +70,7 @@
   <project name="system_core"            path="system/core"            remote="potato" />
   <project name="system_vold"            path="system/vold"            remote="potato" />
   <project name="system_update_engine"   path="system/update_engine"   remote="potato" />
+  <project name="system_security"        path="system/security"        remote="potato" />
   <project name="system_sepolicy"        path="system/sepolicy"        remote="potato" />
   <project name="system_bt"              path="system/bt"              remote="potato" />
   <project name="system_libufdt"         path="system/libufdt"         remote="potato" />

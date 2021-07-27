@@ -1,6 +1,8 @@
 <manifest>
   <!--  External  -->
+  <project name="android_external_e2fsprogs"    path="external/e2fsprogs"    remote="lineage" />
   <project name="android_external_exfatprogs"   path="external/exfatprogs"   remote="lineage" />
+  <project name="android_external_gptfdisk"     path="external/gptfdisk"     remote="lineage" />
   <project name="android_external_ntfs-3g"      path="external/ntfs-3g"      remote="lineage" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage"/>
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage"/>

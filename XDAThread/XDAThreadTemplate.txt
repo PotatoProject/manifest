@@ -1,0 +1,91 @@
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/main.png[/IMG]
+
+[CODE]#include <std_disclaimer.h>
+/*
+* Your warranty is void.
+*
+* I am not responsible for bricked devices, dead SD cards,
+* thermonuclear war, or you getting fired because the alarm app failed. Please
+* do some research if you have any concerns about features included in this ROM
+* before flashing it! YOU are choosing to make these modifications, and if
+* you point the finger at me for messing up your device, I will laugh at you.
+*/[/CODE]
+
+Now that I'm done saving my butt, let's proceed :D
+
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/about.png[/IMG]
+
+[B]Potato Open Sauce Project [/B]is a butter smooth Android aftermarket firmware.
+We handpicked the best features around and are adding our own sauce to it.
+Get ready to taste the unique features it brings with itself.
+We aim to deliver an experience with original ideas and features along with the useful things
+the community is accustomed to.
+
+[SIZE=5][B]Team Potato[/B][/SIZE]
+[MENTION=5834335]Agent_fabulous[/MENTION]
+[MENTION=7820560]ZerNico[/MENTION]
+[MENTION=5614198]raj_jdja[/MENTION]
+[MENTION=6763765]ShreyanshLodha[/MENTION]
+[MENTION=6754044]ATechnoHazard[/MENTION]
+[MENTION=8681386]HrX[/MENTION]
+[MENTION=9414855]Sahil_Sonar[/MENTION]
+
+Design:
+[MENTION=7135377]McAwesomePL[/MENTION]
+[URL='https://www.youtube.com/channel/UCkzhkIspDgx1HsUnA2oeUqA']Valvze[/URL]
+Joshua Baldassarre
+
+[B][SIZE=5]Got an issue or suggestion? Reach us at[/SIZE]
+Telegram[/B]: [URL]https://telegram.me/SaucyPotatoesOfficial[/URL]
+[B]Twitter[/B]: [URL]https://twitter.com/PotatoAndroid[/URL]
+
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/features.png[/IMG]
+
+- Custom RGB/HSL/HSV accent picker for dark/light themes
+- Custom volume panels
+- Three mode Notch Handler (Notch-City)
+- Icon shapes and icon pack support
+- Lockscreen media art and media art blur level
+- Permission hub
+- Signature spoofing
+- QS panel tweaks
+- Various custom QS tiles
+- Custom clocks
+- Brightness slider tweaks
+- Doubletap/longpress power to toggle Flashlight
+- Double tap to sleep on lockscreen
+- Per app network isolation option
+- Google feed integration in launcher
+- Other miscellaneous tweaks
+
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/sources.png[/IMG]
+
+[B]POSP:[/B] [URL='https://github.com/PotatoProject']PotatoProject[/URL]
+[B]POSP Device Sources:[/B] [URL='https://github.com/PotatoDevices']PotatoDevices[/URL]
+[B]POSP Code Review:[/B] [URL='https://review.potatoproject.co']Gerrit Code Review[/URL]
+
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/install.png[/IMG]
+
+[B][SIZE=5]Clean Install[/SIZE][/B]
+- Backup all your data (Important)
+- Wipe /system, /data and cache.
+- Flash the ROM + NikGApps (Download link below)
+- Reboot
+
+[B][SIZE=5]Updates[/SIZE][/B]
+- Flash ROM
+- Reboot!
+
+[IMG]https://raw.githubusercontent.com/PotatoProject/manifest/dumaloo-release/XDAThread/download.png[/IMG]
+
+[B]ROM:[/B] [URL]https://sourceforge.net/projects/posp/files/beryllium/dumaloo[/URL]
+[B]NikGApps:[/B] [URL='https://nikgapps.com/']NikGApps[/URL]
+
+[SIZE=5][B]Credits[/B][/SIZE]
+- Google for AOSP
+- Team Potato
+- LineageOS
+- ArrowOS
+- OmniROM
+- AOSiP
+- And everyone else who helped out!

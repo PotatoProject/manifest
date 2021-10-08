@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bea489a4_7755ba4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000165
+      },
+      "writtenOn": "2021-10-08T17:50:13Z",
+      "side": 1,
+      "message": "Todo: Track the display HALs locally to patch them for the below patches:\n\nhttps://github.com/PotatoProject-next/hardware_qcom-caf_sm8250_display/commit/ce3181d352ef8631d2dcd264500ca80fc8486a71\n\nhttps://github.com/PotatoProject-next/hardware_qcom-caf_sm8250_display/commit/61bbe5195ba34d17903cb9c1e36300524f058ec1\n",
+      "revId": "da02259df802be2444c2c0758e15546866b2eaa5",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554"
+    }
+  ]
+}

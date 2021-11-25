@@ -7,7 +7,6 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage"/>
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage"/>
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage"/>
-  <!-- project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" /-->
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
@@ -88,20 +87,8 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
 
   <!--  Vendor  -->
-  <!-- project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" /-->
-  <!-- project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" /-->
-  <!-- project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" /-->
-  <!-- project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" /-->
-  <!-- project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" revision="lineage-18.1-pn5xx" /-->
-  <!-- project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" revision="lineage-18.1-pn5xx" /-->
-  <!-- project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" revision="lineage-18.1-sn100x" /-->
-  <!-- project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" revision="lineage-18.1-sn100x" /-->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage"/>
-  <!-- project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" /-->
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" />
-  <!-- project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" /-->
-  <!-- project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" /-->
-  <!-- project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lineage" /-->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage"/>
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage"/>
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" />
@@ -109,7 +96,9 @@
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="lineage"/>
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="lineage" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="lineage" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" />
 

@@ -75,5 +75,6 @@
   <project name="vendor_potato-prebuilts"                path="vendor/potato-prebuilts"             remote="potato" clone-depth="1" />
   <project name="vendor_qcom_opensource_power"           path="vendor/qcom/opensource/power"        remote="potato"/>
   <project name="vendor_qcom_opensource_vibrator"        path="vendor/qcom/opensource/vibrator"     remote="potato"/>
+  <project name="vendor_qcom_opensource_fm-commonsys"    path="vendor/qcom/opensource/fm-commonsys" remote="potato"/>
 
 </manifest>

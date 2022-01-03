@@ -52,6 +52,7 @@
   <project name="external_themelib"     path="external/themelib"     remote="potato" />
   <project name="external_tinycompress" path="external/tinycompress" remote="potato" />
   <project name="external_selinux"      path="external/selinux"      remote="potato" />
+  <project name="external_zlib-ng"      path="external/zlib-ng"      remote="potato" />
 
   <!-- System repos -->
   <project name="system_core"            path="system/core"            remote="potato" />

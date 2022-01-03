@@ -3,6 +3,7 @@
   <include name="extras/remove.xml" />
 
   <!-- Build repos -->
+  <project name="art"             path="art"              remote="potato" />
   <project name="bionic"          path="bionic"           remote="potato" />
   <project name="build_make"      path="build/make"       remote="potato" groups="pdk" >
     <copyfile src="core/root.mk"         dest="Makefile" />

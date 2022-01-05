@@ -20,6 +20,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Prebuilt repos -->
+  <project name="prebuilts_abi-dumps_ndk" path="prebuilts/abi-dumps/ndk" remote="potato" clone-depth="1" />
+
   <!-- Sepolicy repos -->
   <project name="device_mediatek_sepolicy"               path="device/mediatek/sepolicy"       remote="potato" />
   <project name="device_potato_sepolicy"                 path="device/potato/sepolicy"         remote="potato" />

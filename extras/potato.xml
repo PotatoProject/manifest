@@ -70,6 +70,9 @@
   <project name="hardware_qcom_audio"         path="hardware/qcom-caf/sm8250/audio"    remote="potato" groups="qcom,qcom_audio"       revision="frico-caf-sm8250" />
   <project name="hardware_qcom_display"       path="hardware/qcom-caf/sm8250/display"  remote="potato" groups="pdk,qcom,qcom_display" revision="frico-caf-sm8250" />
   <project name="hardware_qcom_media"         path="hardware/qcom-caf/sm8250/media"    remote="potato" groups="qcom"                  revision="frico-caf-sm8250" />
+  <project name="hardware_qcom_audio"         path="hardware/qcom-caf/msm8996/audio"   remote="potato" groups="qcom,qcom_audio"       revision="frico-caf-8996" />
+  <project name="hardware_qcom_display"       path="hardware/qcom-caf/msm8996/display" remote="potato" groups="pdk,qcom,qcom_display" revision="frico-caf-8996" />
+  <project name="hardware_qcom_media"         path="hardware/qcom-caf/msm8996/media"   remote="potato" groups="qcom"                  revision="frico-caf-8996" />
   <project name="hardware_qcom_bt"            path="hardware/qcom-caf/bt"   remote="potato" groups="qcom"      revision="frico-release-caf" />
   <project name="hardware_qcom_bt"            path="hardware/qcom/bt"       remote="potato" groups="qcom"      revision="frico-release" />
   <project name="hardware_qcom_wlan"          path="hardware/qcom-caf/wlan" remote="potato" groups="qcom_wlan" revision="frico-release-caf" />

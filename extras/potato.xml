@@ -44,6 +44,7 @@
   <project name="packages_apps_Nfc"                   path="packages/apps/Nfc"                    remote="potato" />
   <project name="packages_apps_Settings"              path="packages/apps/Settings"               remote="potato" />
   <project name="packages_apps_SettingsIntelligence"  path="packages/apps/SettingsIntelligence"   remote="potato" />
+  <project name="packages_modules_adb                 path="packages/modules/adb"                 remote="potato" />
   <project name="packages_services_Telephony"         path="packages/services/Telephony"          remote="potato" />
   <project name="packages_apps_ThemePicker"           path="packages/apps/ThemePicker"            remote="potato" />
   <project name="packages_apps_Updater"               path="packages/apps/Updater"                remote="potato" />

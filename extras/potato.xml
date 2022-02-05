@@ -68,6 +68,7 @@
   <!-- Hardware repos -->
   <project name="hardware_interfaces"         path="hardware/interfaces"    remote="potato" />
   <project name="hardware_libhardware"        path="hardware/libhardware"   remote="potato" />
+  <project name="hardware_potato_interfaces"  path="hardware/potato/interfaces"   remote="potato" />
   <project name="hardware_qcom_audio"         path="hardware/qcom-caf/sm8250/audio"    remote="potato" groups="qcom,qcom_audio"       revision="frico-caf-sm8250" />
   <project name="hardware_qcom_display"       path="hardware/qcom-caf/sm8250/display"  remote="potato" groups="pdk,qcom,qcom_display" revision="frico-caf-sm8250" />
   <project name="hardware_qcom_media"         path="hardware/qcom-caf/sm8250/media"    remote="potato" groups="qcom"                  revision="frico-caf-sm8250" />

@@ -52,11 +52,12 @@
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider"  remote="potato" />
 
   <!-- External repos -->
-  <project name="external_colorkt"      path="external/colorkt"      remote="potato" />
-  <project name="external_themelib"     path="external/themelib"     remote="potato" />
-  <project name="external_tinycompress" path="external/tinycompress" remote="potato" />
-  <project name="external_selinux"      path="external/selinux"      remote="potato" />
-  <project name="external_zlib-ng"      path="external/zlib-ng"      remote="potato" />
+  <project name="external_arm-optimized-routines" path="external/arm-optimized-routines" remote="potato" />
+  <project name="external_colorkt"                path="external/colorkt"                remote="potato" />
+  <project name="external_themelib"               path="external/themelib"               remote="potato" />
+  <project name="external_tinycompress"           path="external/tinycompress"           remote="potato" />
+  <project name="external_selinux"                path="external/selinux"                remote="potato" />
+  <project name="external_zlib-ng"                path="external/zlib-ng"                remote="potato" />
 
   <!-- System repos -->
   <project name="system_core"            path="system/core"            remote="potato" />

@@ -11,10 +11,6 @@
           fetch="https://github.com/PotatoProject"
           revision="refs/heads/frico_mr1-release" />
 
-  <remote name="potato-next"
-          fetch="https://github.com/PotatoProject-next"
-          revision="refs/heads/f-staging" />
-
   <remote name="devices"
           fetch="https://github.com/PotatoDevices"
           revision="refs/heads/frico_mr1-release" />
@@ -25,11 +21,11 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="refs/heads/lineage-18.1" />
+          revision="refs/heads/lineage-19.0" />
 
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
-           revision="refs/heads/arrow-11.0" />
+           revision="refs/heads/arrow-12.0" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"

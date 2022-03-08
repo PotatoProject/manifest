@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <remote name="potato"
+          fetch="https://github.com/PotatoProject"
+          revision="refs/heads/frico_mr1-release" />
+
+  <remote name="potato-next"
+          fetch="https://github.com/PotatoProject-next"
+          revision="refs/heads/f-staging" />
+
+  <remote name="devices"
+          fetch="https://github.com/PotatoDevices"
+          revision="refs/heads/frico_mr1-release" />
+
+  <remote name="devices-lab"
+          fetch="https://gitlab.com/PotatoDevices"
+          revision="refs/heads/frico_mr1-release" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="refs/heads/lineage-18.1" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           revision="refs/heads/arrow-11.0" />
+
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.1.0_r1"
            remote="aosp"

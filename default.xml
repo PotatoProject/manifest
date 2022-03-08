@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <remote name="potato"
+          fetch="https://github.com/PotatoProject"
+          revision="refs/heads/frico_mr1-release" />
+
+  <remote name="devices"
+          fetch="https://github.com/PotatoDevices"
+          revision="refs/heads/frico_mr1-release" />
+
+  <remote name="devices-lab"
+          fetch="https://gitlab.com/PotatoDevices"
+          revision="refs/heads/frico_mr1-release" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="refs/heads/lineage-19.0" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           revision="refs/heads/arrow-12.0" />
+
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.1.0_r1"
            remote="aosp"
@@ -1103,5 +1129,9 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Potato Additions -->
+  <include name="extras/potato.xml" />
+  <include name="extras/others.xml" />
 
 </manifest>

@@ -49,6 +49,8 @@
   <project name="packages_services_Telephony"         path="packages/services/Telephony"          remote="potato" />
 
   <!-- External repos -->
+  <project name="external_colorkt"                path="external/colorkt"                remote="potato" />
+  <project name="external_themelib"               path="external/themelib"               remote="potato" />
   <project name="external_tinycompress"           path="external/tinycompress"           remote="potato" />
   <project name="external_selinux"                path="external/selinux"                remote="potato" />
 

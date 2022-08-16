@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <remote name="potato"
+          fetch="https://github.com/PotatoProject"
+          revision="refs/heads/gnocchi-release" />
+
+  <remote name="devices"
+          fetch="https://github.com/PotatoDevices"
+          revision="refs/heads/gnocchi-release" />
+
+  <remote name="devices-lab"
+          fetch="https://gitlab.com/PotatoDevices"
+          revision="refs/heads/frico_mr1-release" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="refs/heads/lineage-19.1" />
+
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-13.0.0_r2"
            remote="aosp"
@@ -1167,4 +1189,8 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+
+  <!-- Add all Potato repos -->
+  <include name="snippets/potato.xml" />
+
 </manifest>

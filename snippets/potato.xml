@@ -33,6 +33,7 @@
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="potato" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="potato" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="potato" revision="gnocchi-release-caf" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="potato" />

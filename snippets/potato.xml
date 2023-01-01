@@ -58,5 +58,7 @@
   <project path="vendor/potato" name="vendor_potato" remote="potato" />
   <project path="vendor/potato-prebuilts" name="vendor_potato-prebuilts" remote="potato" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="potato" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="devices-lab" clone-depth="1" />
+  <project path="vendor/google/gms" name="gotenksIN/android_vendor_google_gms" remote="gitlab" revision="topaz" clone-depth="1" />
 
 </manifest>

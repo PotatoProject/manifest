@@ -53,6 +53,7 @@
   <project path="device/potato/sepolicy" name="device_potato_sepolicy" remote="potato" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="potato" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="potato" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr" revision="gnocchi-release-legacy-um" remote="potato" />
 
   <!-- Vendor Repos -->
   <project path="vendor/potato" name="vendor_potato" remote="potato" />

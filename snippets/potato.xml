@@ -36,6 +36,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="potato" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="potato" revision="gnocchi-release-caf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="potato" revision="gnocchi-release" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="potato" revision="gnocchi-release" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="potato" />

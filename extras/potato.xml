@@ -20,6 +20,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External repos -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="potato" />
   <project path="frameworks/base" name="frameworks_base" remote="potato" />

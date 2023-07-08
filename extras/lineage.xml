@@ -1,6 +1,7 @@
 <manifest>
   <!-- External repos -->
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" remote="lineage"/>
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage"/>
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage"/>
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage"/>

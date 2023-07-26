@@ -38,7 +38,6 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="potato" />
 
   <!-- Sepolicy repos -->
-  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="potato" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="potato" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="potato" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="potato" />

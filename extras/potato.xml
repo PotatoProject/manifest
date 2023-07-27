@@ -28,6 +28,9 @@
   <project path="frameworks/base" name="frameworks_base" remote="potato" />
   <project path="frameworks/native" name="frameworks_native" remote="potato" />
 
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="potato" />
+
   <!-- Packages repos -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="potato" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="potato" />

@@ -7,6 +7,9 @@
   <!-- External repos -->
   <remove-project name="platform/external/exfatprogs" />
 
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/libhardware" />
+
   <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />

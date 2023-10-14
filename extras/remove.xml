@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+
+  <!-- Device repos -->
+  <remove-project name="device/google/bluejay" />
+  <remove-project name="device/google/bluejay-sepolicy" />
+  <remove-project name="device/google/bluejay-kernel" />
+  <remove-project name="device/google/barbet" />
+  <remove-project name="device/google/barbet-sepolicy" />
+  <remove-project name="device/google/bramble" />
+  <remove-project name="device/google/bramble-sepolicy" />
+  <remove-project name="device/google/coral" />
+  <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/felix" />
+  <remove-project name="device/google/felix-sepolicy" />
+  <remove-project name="device/google/felix-kernel" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/redbull-kernel" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/gs101" />
+  <remove-project name="device/google/gs101-sepolicy" />
+  <remove-project name="device/google/gs201" />
+  <remove-project name="device/google/gs201-sepolicy" />
+  <remove-project name="device/google/gs-common" />
+  <remove-project name="device/google/raviole" />
+  <remove-project name="device/google/raviole-kernel" />
+  <remove-project name="device/google/pantah" />
+  <remove-project name="device/google/pantah-sepolicy" />
+  <remove-project name="device/google/pantah-kernel" />
+  <remove-project name="device/google/lynx" />
+  <remove-project name="device/google/lynx-sepolicy" />
+  <remove-project name="device/google/lynx-kernel" /> 
+  <remove-project name="device/google/tangorpro" />
+  <remove-project name="device/google/tangorpro-sepolicy" />
+  <remove-project name="device/google/tangorpro-kernel" /> 
+  <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/shusky" /> 
+  <remove-project name="device/google/shusky-sepolicy" /> 
+  <remove-project name="device/google/shusky-kernel" /> 
+  <remove-project name="device/google/zuma" />
+  <remove-project name="device/google/zuma-sepolicy" />
+
+  <!-- External repos -->
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/libnl" />
+
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+  <!-- Build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- Framework repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
+
+</manifest>

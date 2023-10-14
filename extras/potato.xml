@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="extras/remove.xml" />
+  <include name="extras/lineage.xml" />
+
+  <!-- Build repos -->
+  <project path="bionic" name="bionic" remote="potato"/>
+  <project path="build/make" name="build_make" remote="potato">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="potato" />
+  <project path="build/soong" name="build_soong" remote="potato">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External repos -->
+  <project path="external/libnl" name="external_libnl" remote="potato" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="potato" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="potato" />
+  <project path="frameworks/base" name="frameworks_base" remote="potato" />
+  <project path="frameworks/native" name="frameworks_native" remote="potato" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="potato" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="potato" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="potato" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="potato" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="potato" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="potato" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="potato" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="potato" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="potato" />
+
+  <!-- Sepolicy repos -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="potato" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="potato" />
+  <project path="device/potato/sepolicy" name="device_potato_sepolicy" remote="potato" />
+
+  <!-- System repos -->
+  <project path="system/bpf" name="system_bpf" remote="potato" />
+  <project path="system/core" name="system_core" remote="potato" />
+  <project path="system/libhidl" name="system_libhidl" remote="potato" />
+  <project path="system/update_engine" name="system_update_engine" remote="potato" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="potato" />
+  <project path="system/vold" name="system_vold" remote="potato" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="potato" />
+  <project path="vendor/potato" name="vendor_potato" remote="potato" />
+  <project path="vendor/potato-prebuilts" name="vendor_potato-prebuilts" remote="potato" />
+
+</manifest>
